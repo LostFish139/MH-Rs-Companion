@@ -1,0 +1,24 @@
+
+# 怪物猎人崛起智能狩猎助手 - 依赖文件
+
+# GUI框架
+PySide6>=6.4.0
+
+# OCR引擎
+rapidocr_onnxruntime>=1.1.0
+
+# 备选OCR引擎
+pytesseract>=0.3.10
+
+# 图像处理
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# 窗口操作
+pywin32>=306
+mss>=9.0.0
+pygetwindow>=0.0.9
+
+# 字符串模糊匹配
+fuzzywuzzy>=0.18.0
+python-Levenshtein>=0.21.1

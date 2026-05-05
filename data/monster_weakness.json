@@ -1,0 +1,458 @@
+{
+  "青熊兽": {
+    "recommended_weapon": {
+      "type": "火属性",
+      "weapon": "永恒苦闷（妃蜘蛛）"
+    }
+  },
+  "镰鼬龙": {
+    "recommended_weapon": {
+      "type": "水属性",
+      "weapon": "新鲜斧黄金鲤之魂（海境衍生）"
+    }
+  },
+  "镰鼬龙王": {
+    "recommended_weapon": {
+      "type": "水属性",
+      "weapon": "新鲜斧黄金鲤之魂（海境衍生）"
+    }
+  },
+  "眠狗龙": {
+    "recommended_weapon": {
+      "type": "火属性",
+      "weapon": "永恒苦闷（妃蜘蛛）"
+    }
+  },
+  "眠狗龙王": {
+    "recommended_weapon": {
+      "type": "火属性",
+      "weapon": "永恒苦闷（妃蜘蛛）"
+    }
+  },
+  "白兔兽": {
+    "recommended_weapon": {
+      "type": "火属性",
+      "weapon": "永恒苦闷（妃蜘蛛）"
+    }
+  },
+  "毒狗龙王": {
+    "recommended_weapon": {
+      "type": "雷属性",
+      "weapon": "神佑·雷祸宿命（雷神珑）"
+    }
+  },
+  "河童蛙": {
+    "recommended_weapon": {
+      "type": "雷属性",
+      "weapon": "神佑·雷祸宿命（雷神珑）"
+    }
+  },
+  "搔鸟": {
+    "recommended_weapon": {
+      "type": "水属性",
+      "weapon": "新鲜斧黄金鲤之魂（海境衍生）"
+    }
+  },
+  "水兽": {
+    "recommended_weapon": {
+      "type": "火属性",
+      "weapon": "永恒苦闷（妃蜘蛛）"
+    }
+  },
+  "水生兽": {
+    "recommended_weapon": {
+      "type": "火属性",
+      "weapon": "永恒苦闷（妃蜘蛛）"
+    }
+  },
+  "土砂龙": {
+    "recommended_weapon": {
+      "type": "水属性",
+      "weapon": "新鲜斧黄金鲤之魂（海境衍生）"
+    }
+  },
+  "奇怪龙": {
+    "recommended_weapon": {
+      "type": "火属性",
+      "weapon": "永恒苦闷（妃蜘蛛）"
+    }
+  },
+  "毒妖鸟": {
+    "recommended_weapon": {
+      "type": "雷属性",
+      "weapon": "神佑·雷祸宿命（雷神珑）"
+    }
+  },
+  "天狗兽": {
+    "recommended_weapon": {
+      "type": "冰属性",
+      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    }
+  },
+  "绯天狗兽": {
+    "recommended_weapon": {
+      "type": "冰属性",
+      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    }
+  },
+  "飞雷龙": {
+    "recommended_weapon": {
+      "type": "冰属性",
+      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    }
+  },
+  "雌火龙": {
+    "recommended_weapon": {
+      "type": "龙属性",
+      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    }
+  },
+  "火龙": {
+    "recommended_weapon": {
+      "type": "龙属性",
+      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    }
+  },
+  "人鱼龙": {
+    "recommended_weapon": {
+      "type": "雷属性",
+      "weapon": "神佑·雷祸宿命（雷神珑）"
+    }
+  },
+  "泥鱼龙": {
+    "recommended_weapon": {
+      "type": "榴弹瓶",
+      "weapon": "冥渊盾斧【裂地】（冥渊龙）"
+    }
+  },
+  "蛮颚龙": {
+    "recommended_weapon": {
+      "type": "水属性",
+      "weapon": "新鲜斧黄金鲤之魂（海境衍生）"
+    }
+  },
+  "岩龙": {
+    "recommended_weapon": {
+      "type": "龙属性",
+      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    }
+  },
+  "天廻龙": {
+    "recommended_weapon": {
+      "type": "龙属性",
+      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    }
+  },
+  "赤甲兽": {
+    "recommended_weapon": {
+      "type": "水属性",
+      "weapon": "新鲜斧黄金鲤之魂（海境衍生）"
+    }
+  },
+  "妃蜘蛛": {
+    "recommended_weapon": {
+      "type": "榴弹瓶",
+      "weapon": "冥渊盾斧【裂地】（冥渊龙）"
+    }
+  },
+  "炽妃蜘蛛": {
+    "recommended_weapon": {
+      "type": "榴弹瓶",
+      "weapon": "冥渊盾斧【裂地】（冥渊龙）"
+    }
+  },
+  "冰牙龙": {
+    "recommended_weapon": {
+      "type": "火属性",
+      "weapon": "永恒苦闷（妃蜘蛛）"
+    }
+  },
+  "雪鬼兽": {
+    "recommended_weapon": {
+      "type": "火属性",
+      "weapon": "永恒苦闷（妃蜘蛛）"
+    }
+  },
+  "怨虎龙": {
+    "recommended_weapon": {
+      "type": "水属性",
+      "weapon": "新鲜斧黄金鲤之魂（海境衍生）"
+    }
+  },
+  "刚缠兽": {
+    "recommended_weapon": {
+      "type": "雷属性",
+      "weapon": "神佑·雷祸宿命（雷神珑）"
+    }
+  },
+  "冰人鱼龙": {
+    "recommended_weapon": {
+      "type": "火属性",
+      "weapon": "永恒苦闷（妃蜘蛛）"
+    }
+  },
+  "迅龙": {
+    "recommended_weapon": {
+      "type": "雷属性",
+      "weapon": "神佑·雷祸宿命（雷神珑）"
+    }
+  },
+  "泥翁龙": {
+    "recommended_weapon": {
+      "type": "火属性",
+      "weapon": "永恒苦闷（妃蜘蛛）"
+    }
+  },
+  "冰狼龙": {
+    "recommended_weapon": {
+      "type": "火属性",
+      "weapon": "永恒苦闷（妃蜘蛛）"
+    }
+  },
+  "泡狐龙": {
+    "recommended_weapon": {
+      "type": "冰属性",
+      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    }
+  },
+  "角龙": {
+    "recommended_weapon": {
+      "type": "冰属性",
+      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    }
+  },
+  "电龙": {
+    "recommended_weapon": {
+      "type": "冰属性",
+      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    }
+  },
+  "雷狼龙": {
+    "recommended_weapon": {
+      "type": "冰属性",
+      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    }
+  },
+  "千刃龙": {
+    "recommended_weapon": {
+      "type": "雷属性",
+      "weapon": "神佑·雷祸宿命（雷神珑）"
+    }
+  },
+  "焰狐龙": {
+    "recommended_weapon": {
+      "type": "冰属性",
+      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    }
+  },
+  "轰龙": {
+    "recommended_weapon": {
+      "type": "雷属性",
+      "weapon": "神佑·雷祸宿命（雷神珑）"
+    }
+  },
+  "棘龙": {
+    "recommended_weapon": {
+      "type": "冰属性",
+      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    }
+  },
+  "黑蚀龙": {
+    "recommended_weapon": {
+      "type": "龙属性",
+      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    }
+  },
+  "金狮子": {
+    "recommended_weapon": {
+      "type": "冰属性",
+      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    }
+  },
+  "爆鳞龙": {
+    "recommended_weapon": {
+      "type": "冰属性",
+      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    }
+  },
+  "激昂金狮子": {
+    "recommended_weapon": {
+      "type": "冰属性",
+      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    }
+  },
+  "嗟怨震天怨虎龙": {
+    "recommended_weapon": {
+      "type": "水属性",
+      "weapon": "新鲜斧黄金鲤之魂（海境衍生）"
+    }
+  },
+  "棘茶龙": {
+    "recommended_weapon": {
+      "type": "水属性",
+      "weapon": "新鲜斧黄金鲤之魂（海境衍生）"
+    }
+  },
+  "金火龙": {
+    "recommended_weapon": {
+      "type": "龙属性",
+      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    }
+  },
+  "银火龙": {
+    "recommended_weapon": {
+      "type": "龙属性",
+      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    }
+  },
+  "红莲爆鳞龙": {
+    "recommended_weapon": {
+      "type": "冰属性",
+      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    }
+  },
+  "混沌黑蚀龙": {
+    "recommended_weapon": {
+      "type": "龙属性",
+      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    }
+  },
+  "霞龙": {
+    "recommended_weapon": {
+      "type": "火属性",
+      "weapon": "永恒苦闷（妃蜘蛛）"
+    }
+  },
+  "钢龙": {
+    "recommended_weapon": {
+      "type": "雷属性",
+      "weapon": "神佑·雷祸宿命（雷神珑）"
+    }
+  },
+  "炎王龙": {
+    "recommended_weapon": {
+      "type": "冰属性",
+      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    }
+  },
+  "神秘红光天彗龙": {
+    "recommended_weapon": {
+      "type": "龙属性",
+      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    }
+  },
+  "冥渊龙": {
+    "recommended_weapon": {
+      "type": "龙属性",
+      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    }
+  },
+  "岚龙": {
+    "recommended_weapon": {
+      "type": "龙属性",
+      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    }
+  },
+  "爵银龙": {
+    "recommended_weapon": {
+      "type": "龙属性",
+      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    }
+  },
+  "原初形态爵银龙": {
+    "recommended_weapon": {
+      "type": "龙属性",
+      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    }
+  },
+  "百龙渊源雷神龙": {
+    "recommended_weapon": {
+      "type": "雷属性",
+      "weapon": "神佑·雷祸宿命（雷神珑）"
+    }
+  },
+  "风神龙": {
+    "recommended_weapon": {
+      "type": "龙属性",
+      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    }
+  },
+  "怪异克服霞龙": {
+    "recommended_weapon": {
+      "type": "火属性",
+      "weapon": "永恒苦闷（妃蜘蛛）"
+    }
+  },
+  "怪异克服钢龙": {
+    "recommended_weapon": {
+      "type": "雷属性",
+      "weapon": "神佑·雷祸宿命（雷神珑）"
+    }
+  },
+  "怪异克服炎王龙": {
+    "recommended_weapon": {
+      "type": "冰属性",
+      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    }
+  },
+  "怪异克服神秘红光天彗龙": {
+    "recommended_weapon": {
+      "type": "龙属性",
+      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    }
+  },
+  "怪异克服天廻龙": {
+    "recommended_weapon": {
+      "type": "龙属性",
+      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    }
+  },
+  "霸主·青熊兽": {
+    "recommended_weapon": {
+      "type": "火属性",
+      "weapon": "永恒苦闷（妃蜘蛛）"
+    }
+  },
+  "霸主·雌火龙": {
+    "recommended_weapon": {
+      "type": "龙属性",
+      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    }
+  },
+  "霸主·泡狐龙": {
+    "recommended_weapon": {
+      "type": "冰属性",
+      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    }
+  },
+  "霸主·火龙": {
+    "recommended_weapon": {
+      "type": "龙属性",
+      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    }
+  },
+  "霸主·角龙": {
+    "recommended_weapon": {
+      "type": "冰属性",
+      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    }
+  },
+  "霸主·雷狼龙": {
+    "recommended_weapon": {
+      "type": "冰属性",
+      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    }
+  },
+  "月迅龙": {
+    "recommended_weapon": {
+      "type": "雷属性",
+      "weapon": "神佑·雷祸宿命（雷神珑）"
+    }
+  },
+  "冰呪龙": {
+    "recommended_weapon": {
+      "type": "龙属性",
+      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    }
+  }
+}

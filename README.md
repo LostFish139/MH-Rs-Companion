@@ -165,29 +165,3 @@ A: 可以尝试增加监控间隔，或者使用GPU加速（需要安装CUDA版�
 ## 贡献
 
 欢迎提交问题和建议！
-
-## Git仓库文件说明
-
-### 应该上传到GitHub的文件：
-
-- **源代码文件**：所有Python源代码文件（.py）
-- **配置文件**：config.py（通用配置）
-- **数据文件**：data/目录下的JSON文件
-- **文档文件**：README.md、ARCHITECTURE.md、DESIGN.md
-- **依赖文件**：requirements.txt
-- **启动脚本**：run.bat、run_ocr_tester.bat
-- **其他**：.gitignore文件
-
-### 不应该上传到GitHub的文件：
-
-- **调试截图**：debug_screenshots/目录（已在.gitignore中排除）
-- **Python缓存**：__pycache__/目录、*.pyc文件（已在.gitignore中排除）
-- **虚拟环境**：venv/、env/等目录（已在.gitignore中排除）
-- **IDE配置**：.vscode/、.idea/目录（已在.gitignore中排除）
-- **本地配置**：config_local.py（个人配置，不应共享）
-- **日志文件**：*.log文件（已在.gitignore中排除）
-- **操作系统文件**：.DS_Store、Thumbs.db等（已在.gitignore中排除）
-
-### .gitignore文件说明：
-
-项目已包含.gitignore文件，自动排除上述不应上传的文件。在执行git add命令时，这些文件将被自动忽略。

@@ -1,6 +1,7 @@
 
 """
 工作流编排模块 - 协调截图、OCR识别和数据匹配
+支持完整推荐信息（多怪物、狩猎技巧、弱点详情）
 """
 import logging
 import os
@@ -26,7 +27,8 @@ class Workflow:
         self.data_matcher = DataMatcher()
 
         # 回调函数
-        self.on_result_callback: Optional[Callable] = None
+        self.on_result_callback: Optional[Callable] = None  # 兼容旧接口 (monster_name, weapons)
+        self.on_full_result_callback: Optional[Callable] = None  # 新接口 (full_result)
         self.on_error_callback: Optional[Callable] = None
 
         # 历史记录 - 只保留2次识别的记录
@@ -73,16 +75,28 @@ class Workflow:
         except Exception as e:
             logger.warning(f"清理旧截图失败: {str(e)}")
 
-    def set_callbacks(self, on_result: Optional[Callable] = None, on_error: Optional[Callable] = None):
+    def set_callbacks(self, on_result: Optional[Callable] = None, 
+                      on_full_result: Optional[Callable] = None,
+                      on_error: Optional[Callable] = None):
         """
         设置回调函数
 
         Args:
-            on_result: 结果回调函数，参数为 (monster_name, weapons)
+            on_result: 结果回调函数（兼容旧接口），参数为 (monster_name, weapons)
+            on_full_result: 完整结果回调函数（新接口），参数为 (full_result_dict)
             on_error: 错误回调函数，参数为 (error_message)
         """
         self.on_result_callback = on_result
+        self.on_full_result_callback = on_full_result
         self.on_error_callback = on_error
+
+    def set_current_weapon(self, weapon_name: str):
+        """设置当前使用的武器"""
+        self.data_matcher.set_current_weapon(weapon_name)
+
+    def get_current_weapon(self) -> str:
+        """获取当前使用的武器"""
+        return self.data_matcher.get_current_weapon()
 
     def execute(self) -> bool:
         """
@@ -91,7 +105,7 @@ class Workflow:
         2. 截取OCR区域
         3. OCR识别文字
         4. 与数据集比对
-        5. 返回推荐武器信息
+        5. 返回推荐信息（武器+技巧+弱点）
 
         Returns:
             是否执行成功
@@ -134,50 +148,39 @@ class Workflow:
 
             logger.info(f"OCR识别结果: {text}")
 
-            # 步骤4: 与数据集比对
-            monster_name, weapons = self.data_matcher.get_recommendation(text)
-            if not monster_name or not weapons:
+            # 步骤4: 获取完整推荐信息（支持多怪物）
+            full_result = self.data_matcher.get_full_recommendation(text)
+            
+            if not full_result or not full_result.get("monsters"):
                 logger.info(f"识别到任务: {text}，但未找到匹配的武器推荐")
                 # 即使没有找到武器推荐，也重置警告标志，因为我们已经识别到了任务
                 self.shown_no_task_warning = False
                 return False
 
-            # 检查是否与历史记录重复
-            current_result = {
-                "monster_name": monster_name,
-                "weapons": weapons,
-                "text": text
-            }
-
-            is_duplicate = False
-            for history in self.recognition_history:
-                if (history["monster_name"] == monster_name and 
-                    len(history["weapons"]) == len(weapons)):
-                    # 检查武器是否相同
-                    weapons_match = True
-                    for i, weapon in enumerate(weapons):
-                        if (weapon.get("weapon") != history["weapons"][i].get("weapon") or
-                            weapon.get("type") != history["weapons"][i].get("type")):
-                            weapons_match = False
-                            break
-                    if weapons_match:
-                        is_duplicate = True
-                        logger.info(f"识别结果与历史记录重复，跳过输出: {monster_name}")
-                        break
+            # 检查是否与历史记录重复（基于任务名和怪物列表）
+            is_duplicate = self._check_duplicate(text, full_result)
 
             if not is_duplicate:
                 # 添加到历史记录
-                self.recognition_history.append(current_result)
-                # 限制历史记录大小
-                if len(self.recognition_history) > self.max_history_size:
-                    self.recognition_history.pop(0)
+                self._add_to_history(text, full_result)
 
                 # 重置"检测不到任务"的警告标志
                 self.shown_no_task_warning = False
 
-                # 步骤5: 返回武器推荐信息
-                logger.info(f"匹配成功: 怪物={monster_name}, 推荐武器数量={len(weapons)}")
+                # 步骤5: 返回推荐信息
+                monster_count = len(full_result.get("monsters", []))
+                logger.info(f"匹配成功: 任务={text}, 怪物数量={monster_count}, 多怪物任务={full_result.get('is_multi_monster', False)}")
+
+                # 触发完整结果回调（新接口）
+                if self.on_full_result_callback:
+                    self.on_full_result_callback(full_result)
+
+                # 触发旧接口回调（兼容）
                 if self.on_result_callback:
+                    # 取第一个怪物的信息作为兼容返回
+                    first_monster = full_result["monsters"][0]
+                    monster_name = first_monster.get("name", "")
+                    weapons = first_monster.get("weapons", [])
                     self.on_result_callback(monster_name, weapons)
             else:
                 logger.info(f"识别结果与历史记录重复，不触发回调")
@@ -187,9 +190,48 @@ class Workflow:
         except Exception as e:
             error_msg = f"执行工作流失败: {str(e)}"
             logger.error(error_msg)
+            import traceback
+            logger.error(traceback.format_exc())
             if self.on_error_callback:
                 self.on_error_callback(error_msg)
             return False
+
+    def _check_duplicate(self, text: str, full_result: Dict) -> bool:
+        """检查是否与历史记录重复"""
+        if not self.recognition_history:
+            return False
+
+        # 提取当前结果的关键信息
+        current_monsters = [m.get("name", "") for m in full_result.get("monsters", [])]
+        current_monsters_set = set(current_monsters)
+
+        for history in self.recognition_history:
+            history_monsters = history.get("monsters", [])
+            history_monsters_set = set(history_monsters)
+            
+            # 如果怪物列表相同，则认为重复
+            if current_monsters_set == history_monsters_set:
+                logger.info(f"识别结果与历史记录重复，跳过输出: {current_monsters}")
+                return True
+
+        return False
+
+    def _add_to_history(self, text: str, full_result: Dict):
+        """添加到历史记录"""
+        monster_names = [m.get("name", "") for m in full_result.get("monsters", [])]
+        
+        history_entry = {
+            "text": text,
+            "monsters": monster_names,
+            "is_multi_monster": full_result.get("is_multi_monster", False),
+            "timestamp": time.time()
+        }
+
+        self.recognition_history.append(history_entry)
+        
+        # 限制历史记录大小
+        if len(self.recognition_history) > self.max_history_size:
+            self.recognition_history.pop(0)
 
     def test_ocr(self, num_tests: int = 3) -> List[Dict]:
         """

@@ -7,10 +7,9 @@ import sys
 import logging
 
 # 禁用PaddlePaddle的oneDNN加速以解决兼容性问题
+# 注意：当前默认使用RapidOCR，PaddlePaddle相关环境变量仅作兼容保留
 os.environ['FLAGS_use_mkldnn'] = '0'
-# 禁用PaddlePaddle的新执行器
 os.environ['FLAGS_use_new_executor'] = '0'
-# 禁用PaddlePaddle的IR优化
 os.environ['FLAGS_enable_pir_api'] = '0'
 
 from PySide6.QtWidgets import QApplication
@@ -18,7 +17,7 @@ from PySide6.QtCore import QObject, Slot, Qt
 from core.workflow import Workflow
 from ui.chat_window import ChatWindow
 from ui.settings import SettingsDialog
-from config import DEBUG, WINDOW_CONFIG, OCR_REGION, MONITOR_CONFIG, OCR_ENGINE, PADDLEOCR_USE_GPU
+from config import DEBUG, WINDOW_CONFIG, MONITOR_CONFIG
 
 # 配置日志
 logging.basicConfig(
@@ -42,9 +41,10 @@ class MainWindowController(QObject):
         self.chat_window = ChatWindow()
         self.settings_dialog = None
 
-        # 设置工作流回调
+        # 设置工作流回调（完整结果回调 + 兼容旧接口）
         self.workflow.set_callbacks(
             on_result=self.on_workflow_result,
+            on_full_result=self.on_workflow_full_result,
             on_error=self.on_workflow_error
         )
 
@@ -61,6 +61,8 @@ class MainWindowController(QObject):
         """连接信号槽"""
         # 聊天窗口信号
         self.chat_window.settings_requested.connect(self.show_settings)
+        self.chat_window.weapon_changed.connect(self.on_weapon_changed)
+        self.chat_window.mode_changed.connect(self.on_mode_changed)
 
         # 定时器信号
         self.chat_window.window_check_timer.timeout.connect(self.check_game_window)
@@ -93,15 +95,34 @@ class MainWindowController(QObject):
         """执行OCR识别 - 通过Workflow协调各个模块"""
         self.workflow.execute()
 
+    @Slot(str)
+    def on_weapon_changed(self, weapon: str):
+        """武器选择改变"""
+        self.workflow.set_current_weapon(weapon)
+        logger.info(f"武器已切换为: {weapon}")
+
+    @Slot(str)
+    def on_mode_changed(self, mode: str):
+        """显示模式改变"""
+        logger.info(f"显示模式已切换为: {mode}")
+
     def on_workflow_result(self, monster_name: str, weapons: list):
-        """工作流结果回调"""
+        """工作流结果回调（兼容旧接口）"""
         logger.info(f"匹配成功: 怪物={monster_name}, 推荐武器数量={len(weapons)}")
-        self.chat_window.show_weapon_recommendation(monster_name, weapons)
+        # 注意：主要使用on_workflow_full_result，这个是兼容回调
+        # self.chat_window.show_weapon_recommendation(monster_name, weapons)
+
+    def on_workflow_full_result(self, full_result: dict):
+        """工作流完整结果回调（新接口）"""
+        monsters = full_result.get("monsters", [])
+        monster_names = [m.get("name", "") for m in monsters]
+        logger.info(f"完整匹配成功: 怪物={monster_names}, 多怪物={full_result.get('is_multi_monster', False)}")
+        self.chat_window.show_full_recommendation(full_result)
 
     def on_workflow_error(self, error_message: str):
         """工作流错误回调"""
         logger.warning(error_message)
-        self.chat_window.add_assistant_message(error_message)
+        self.chat_window.add_assistant_message(error_message, "warning")
 
     def show_settings(self):
         """显示设置对话框"""
@@ -121,15 +142,25 @@ class MainWindowController(QObject):
             # 应用窗口设置
             WINDOW_CONFIG["chat"]["opacity"] = settings["window"]["opacity"]
             WINDOW_CONFIG["chat"]["always_on_top"] = settings["window"]["always_on_top"]
-            self.chat_window.setWindowOpacity(WINDOW_CONFIG["chat"]["opacity"])
+
+            # 简洁模式下调节的是气泡透明度，调试模式下是窗口透明度
+            if self.chat_window.display_mode == "clean":
+                # 简洁模式：设置气泡透明度
+                if hasattr(self.chat_window, 'set_bubble_opacity'):
+                    self.chat_window.set_bubble_opacity(settings["window"]["opacity"])
+            else:
+                # 调试模式：设置窗口透明度
+                self.chat_window.setWindowOpacity(WINDOW_CONFIG["chat"]["opacity"])
 
             # 保存窗口可见性状态
             was_visible = self.chat_window.isVisible()
 
-            # 设置窗口标志
-            self.chat_window.setWindowFlags(
-                Qt.WindowStaysOnTopHint if WINDOW_CONFIG["chat"]["always_on_top"] else Qt.Window
-            )
+            # 设置窗口标志（注意：自定义无边框窗口，需要保留FramelessWindowHint）
+            from PySide6.QtCore import Qt
+            if WINDOW_CONFIG["chat"]["always_on_top"]:
+                self.chat_window.setWindowFlags(Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint)
+            else:
+                self.chat_window.setWindowFlags(Qt.FramelessWindowHint)
 
             # 重新显示窗口
             if was_visible:
@@ -145,10 +176,17 @@ class MainWindowController(QObject):
             self.chat_window.ocr_timer.setInterval(MONITOR_CONFIG["ocr_interval"])
 
             logger.info("设置已应用")
-            self.chat_window.add_assistant_message("设置已保存并应用。")
+            # 简洁模式下用小字提示
+            if self.chat_window.display_mode == "clean" and hasattr(self.chat_window, '_add_small_hint'):
+                self.chat_window._add_small_hint("已完成更改")
+            else:
+                self.chat_window.add_assistant_message("设置已保存并应用。", "success")
         except Exception as e:
             logger.error(f"应用设置失败: {str(e)}")
-            self.chat_window.add_assistant_message(f"应用设置失败: {str(e)}")
+            if self.chat_window.display_mode == "clean" and hasattr(self.chat_window, '_add_small_hint'):
+                self.chat_window._add_small_hint(f"设置失败: {str(e)}")
+            else:
+                self.chat_window.add_assistant_message(f"应用设置失败: {str(e)}", "warning")
 
     @Slot()
     def test_ocr(self):
@@ -160,14 +198,14 @@ class MainWindowController(QObject):
         for i, result in enumerate(results, 1):
             if result["success"]:
                 result_message = f"第{i}次：识别成功\n识别结果: {result['text']}\n截图已保存: {result['screenshot_path']}"
-                self.chat_window.add_assistant_message(result_message)
+                self.chat_window.add_assistant_message(result_message, "success")
                 logger.info(f"OCR识别结果({i}): {result['text']}")
             else:
                 result_message = f"第{i}次：{result['error']}\n截图已保存: {result['screenshot_path']}" if result['screenshot_path'] else f"第{i}次：{result['error']}"
-                self.chat_window.add_assistant_message(result_message)
+                self.chat_window.add_assistant_message(result_message, "warning")
                 logger.warning(result['error'])
 
-        self.chat_window.add_assistant_message("测试完成！")
+        self.chat_window.add_assistant_message("测试完成！", "success")
 
 
 def main():

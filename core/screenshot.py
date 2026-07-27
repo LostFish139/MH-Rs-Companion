@@ -317,10 +317,18 @@ class ScreenshotCapture:
     def capture_ocr_region(self) -> Optional[np.ndarray]:
         """
         截取OCR识别区域
+        优先使用直接截取OCR区域的方法（性能更好），失败则回退到全窗口截取再裁剪
 
         Returns:
             OCR区域的图像数组或None
         """
+        # 优先尝试直接截取OCR区域（性能更好）
+        ocr_img = self._capture_ocr_region_direct()
+        if ocr_img is not None:
+            return self._save_debug_screenshot(ocr_img, "ocr_region_direct")
+
+        # 回退到全窗口截取再裁剪的方式
+        logger.info("直接截取OCR区域失败，回退到全窗口截取方式")
         img = self.capture_window()
         if img is None:
             return None
@@ -337,9 +345,100 @@ class ScreenshotCapture:
                 height = OCR_REGION["height"]
                 ocr_img = img[y:y+height, x:x+width]
 
-            return self._save_debug_screenshot(ocr_img, "ocr_region")
+            return self._save_debug_screenshot(ocr_img, "ocr_region_fallback")
         except Exception as e:
             logger.error(f"截取OCR区域失败: {str(e)}")
+            return None
+
+    def _capture_ocr_region_direct(self) -> Optional[np.ndarray]:
+        """
+        直接截取OCR区域（不截取全窗口），性能更好
+        使用mss直接截取屏幕上的指定区域
+
+        Returns:
+            OCR区域的图像数组或None
+        """
+        if not self.game_hwnd:
+            return None
+
+        try:
+            import mss
+
+            # 获取窗口客户区域相对于屏幕的位置
+            window_rect = win32gui.GetWindowRect(self.game_hwnd)
+            win_left, win_top, win_right, win_bottom = window_rect
+            win_width = win_right - win_left
+            win_height = win_bottom - win_top
+
+            # 获取客户区域尺寸
+            try:
+                client_rect = win32gui.GetClientRect(self.game_hwnd)
+                client_width = client_rect[2] - client_rect[0]
+                client_height = client_rect[3] - client_rect[1]
+            except Exception as e:
+                logger.warning(f"获取客户区域失败，使用窗口尺寸: {str(e)}")
+                client_width = win_width
+                client_height = win_height
+
+            # 计算客户区域相对于屏幕的位置
+            # 假设标题栏在顶部，边框在两侧
+            title_bar_height = win_height - client_height
+            border_width = (win_width - client_width) // 2
+            client_left = win_left + border_width
+            client_top = win_top + title_bar_height - border_width
+
+            # 计算OCR区域在屏幕上的坐标
+            if "bbox" in OCR_REGION:
+                bbox = OCR_REGION["bbox"]
+                x1, y1, x2, y2 = bbox
+                region_left = client_left + x1
+                region_top = client_top + y1
+                region_width = x2 - x1
+                region_height = y2 - y1
+            else:
+                x = OCR_REGION["x"]
+                y = OCR_REGION["y"]
+                region_width = OCR_REGION["width"]
+                region_height = OCR_REGION["height"]
+                region_left = client_left + x
+                region_top = client_top + y
+
+            # 确保区域尺寸有效
+            if region_width <= 0 or region_height <= 0:
+                logger.warning(f"OCR区域尺寸无效: {region_width}x{region_height}")
+                return None
+
+            # 定义捕获区域
+            monitor = {
+                "top": region_top,
+                "left": region_left,
+                "width": region_width,
+                "height": region_height
+            }
+
+            with mss.mss() as sct:
+                # 捕获OCR区域
+                screenshot = sct.grab(monitor)
+
+                # 转换为numpy数组
+                img = np.array(screenshot)
+
+                # 转换BGRA到BGR
+                img = cv2.cvtColor(img, cv2.COLOR_BGRA2BGR)
+
+                # 检查图像是否全黑
+                if np.all(img == 0):
+                    logger.warning("直接截取OCR区域返回全黑图像")
+                    return None
+
+                logger.debug(f"直接截取OCR区域成功: {region_width}x{region_height}")
+                return img
+
+        except ImportError:
+            logger.warning("mss模块不可用，无法直接截取OCR区域")
+            return None
+        except Exception as e:
+            logger.warning(f"直接截取OCR区域失败: {str(e)}")
             return None
 
     def _save_debug_screenshot(self, img: np.ndarray, method_name: str) -> np.ndarray:

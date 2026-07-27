@@ -1,458 +1,6034 @@
 {
+  "_meta": {
+    "version": "2.0.0",
+    "updated": "2026-07-22",
+    "description": "怪物猎人崛起：曙光 怪物弱点数据，包含全属性弱点和部位弱点",
+    "weakness_rating": {
+      "★★★": "非常有效（属性吸收20+）",
+      "★★": "有效（属性吸收10-20）",
+      "★": "效果较差（属性吸收5-10）",
+      "—": "无效/抗性极高（属性吸收0-5）"
+    }
+  },
   "青熊兽": {
-    "recommended_weapon": {
-      "type": "火属性",
-      "weapon": "永恒苦闷（妃蜘蛛）"
+    "type": "牙兽种",
+    "weakness": {
+      "fire": "★★★",
+      "water": "★",
+      "thunder": "★★",
+      "ice": "★",
+      "dragon": "—"
+    },
+    "weakest_element": "火",
+    "weakest_parts": [
+      "头部",
+      "前肢"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★",
+      "sleep": "★★★",
+      "blast": "★★",
+      "stun": "★★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "炎王龙大剑",
+        "element": "火属性"
+      },
+      "太刀": {
+        "weapon": "炎王龙太刀",
+        "element": "火属性"
+      },
+      "片手剑": {
+        "weapon": "火龙片手剑",
+        "element": "火属性"
+      },
+      "双刀": {
+        "weapon": "火龙双刀",
+        "element": "火属性"
+      },
+      "长枪": {
+        "weapon": "炎王龙长枪",
+        "element": "火属性"
+      },
+      "铳枪": {
+        "weapon": "炎王龙铳枪",
+        "element": "火属性"
+      },
+      "大锤": {
+        "weapon": "炎王龙大锤",
+        "element": "火属性"
+      },
+      "狩猎笛": {
+        "weapon": "炎王龙狩猎笛",
+        "element": "火属性"
+      },
+      "斩斧": {
+        "weapon": "炎王龙斩斧",
+        "element": "火属性"
+      },
+      "操虫棍": {
+        "weapon": "火龙操虫棍",
+        "element": "火属性"
+      },
+      "轻弩": {
+        "weapon": "炎王龙轻弩",
+        "element": "火属性"
+      },
+      "重弩": {
+        "weapon": "炎王龙重弩",
+        "element": "火属性"
+      },
+      "弓": {
+        "weapon": "炎王龙弓",
+        "element": "火属性"
+      },
+      "盾斧": {
+        "weapon": "永恒苦闷（妃蜘蛛）",
+        "element": "火属性"
+      }
     }
   },
   "镰鼬龙": {
-    "recommended_weapon": {
-      "type": "水属性",
-      "weapon": "新鲜斧黄金鲤之魂（海境衍生）"
+    "type": "牙龙种",
+    "weakness": {
+      "fire": "★",
+      "water": "★★★",
+      "thunder": "★★",
+      "ice": "★★",
+      "dragon": "—"
+    },
+    "weakest_element": "水",
+    "weakest_parts": [
+      "头部",
+      "身体"
+    ],
+    "status_weakness": {
+      "poison": "★★★",
+      "paralysis": "★★",
+      "sleep": "★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "泥鱼龙大剑",
+        "element": "水属性"
+      },
+      "太刀": {
+        "weapon": "泡狐龙太刀",
+        "element": "水属性"
+      },
+      "片手剑": {
+        "weapon": "水兽片手剑",
+        "element": "水属性"
+      },
+      "双刀": {
+        "weapon": "泡狐龙双刀",
+        "element": "水属性"
+      },
+      "长枪": {
+        "weapon": "泡狐龙长枪",
+        "element": "水属性"
+      },
+      "铳枪": {
+        "weapon": "熔岩龙铳枪",
+        "element": "水属性"
+      },
+      "大锤": {
+        "weapon": "水兽大锤",
+        "element": "水属性"
+      },
+      "狩猎笛": {
+        "weapon": "泡狐龙狩猎笛",
+        "element": "水属性"
+      },
+      "斩斧": {
+        "weapon": "泡狐龙斩斧",
+        "element": "水属性"
+      },
+      "操虫棍": {
+        "weapon": "泡狐龙操虫棍",
+        "element": "水属性"
+      },
+      "轻弩": {
+        "weapon": "水兽轻弩",
+        "element": "水属性"
+      },
+      "重弩": {
+        "weapon": "熔岩龙重弩",
+        "element": "水属性"
+      },
+      "弓": {
+        "weapon": "泡狐龙弓",
+        "element": "水属性"
+      },
+      "盾斧": {
+        "weapon": "新鲜斧黄金鲤之魂（海境衍生）",
+        "element": "水属性"
+      }
     }
   },
   "镰鼬龙王": {
-    "recommended_weapon": {
-      "type": "水属性",
-      "weapon": "新鲜斧黄金鲤之魂（海境衍生）"
+    "type": "牙龙种",
+    "weakness": {
+      "fire": "★",
+      "water": "★★★",
+      "thunder": "★★",
+      "ice": "★★",
+      "dragon": "—"
+    },
+    "weakest_element": "水",
+    "weakest_parts": [
+      "头部",
+      "身体"
+    ],
+    "status_weakness": {
+      "poison": "★★★",
+      "paralysis": "★★",
+      "sleep": "★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "泥鱼龙大剑",
+        "element": "水属性"
+      },
+      "太刀": {
+        "weapon": "泡狐龙太刀",
+        "element": "水属性"
+      },
+      "片手剑": {
+        "weapon": "水兽片手剑",
+        "element": "水属性"
+      },
+      "双刀": {
+        "weapon": "泡狐龙双刀",
+        "element": "水属性"
+      },
+      "长枪": {
+        "weapon": "泡狐龙长枪",
+        "element": "水属性"
+      },
+      "铳枪": {
+        "weapon": "熔岩龙铳枪",
+        "element": "水属性"
+      },
+      "大锤": {
+        "weapon": "水兽大锤",
+        "element": "水属性"
+      },
+      "狩猎笛": {
+        "weapon": "泡狐龙狩猎笛",
+        "element": "水属性"
+      },
+      "斩斧": {
+        "weapon": "泡狐龙斩斧",
+        "element": "水属性"
+      },
+      "操虫棍": {
+        "weapon": "泡狐龙操虫棍",
+        "element": "水属性"
+      },
+      "轻弩": {
+        "weapon": "水兽轻弩",
+        "element": "水属性"
+      },
+      "重弩": {
+        "weapon": "熔岩龙重弩",
+        "element": "水属性"
+      },
+      "弓": {
+        "weapon": "泡狐龙弓",
+        "element": "水属性"
+      },
+      "盾斧": {
+        "weapon": "新鲜斧黄金鲤之魂（海境衍生）",
+        "element": "水属性"
+      }
     }
   },
   "眠狗龙": {
-    "recommended_weapon": {
-      "type": "火属性",
-      "weapon": "永恒苦闷（妃蜘蛛）"
+    "type": "牙龙种",
+    "weakness": {
+      "fire": "★★★",
+      "water": "★",
+      "thunder": "★★",
+      "ice": "★★",
+      "dragon": "—"
+    },
+    "weakest_element": "火",
+    "weakest_parts": [
+      "头部"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★★",
+      "sleep": "—",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "炎王龙大剑",
+        "element": "火属性"
+      },
+      "太刀": {
+        "weapon": "炎王龙太刀",
+        "element": "火属性"
+      },
+      "片手剑": {
+        "weapon": "火龙片手剑",
+        "element": "火属性"
+      },
+      "双刀": {
+        "weapon": "火龙双刀",
+        "element": "火属性"
+      },
+      "长枪": {
+        "weapon": "炎王龙长枪",
+        "element": "火属性"
+      },
+      "铳枪": {
+        "weapon": "炎王龙铳枪",
+        "element": "火属性"
+      },
+      "大锤": {
+        "weapon": "炎王龙大锤",
+        "element": "火属性"
+      },
+      "狩猎笛": {
+        "weapon": "炎王龙狩猎笛",
+        "element": "火属性"
+      },
+      "斩斧": {
+        "weapon": "炎王龙斩斧",
+        "element": "火属性"
+      },
+      "操虫棍": {
+        "weapon": "火龙操虫棍",
+        "element": "火属性"
+      },
+      "轻弩": {
+        "weapon": "炎王龙轻弩",
+        "element": "火属性"
+      },
+      "重弩": {
+        "weapon": "炎王龙重弩",
+        "element": "火属性"
+      },
+      "弓": {
+        "weapon": "炎王龙弓",
+        "element": "火属性"
+      },
+      "盾斧": {
+        "weapon": "永恒苦闷（妃蜘蛛）",
+        "element": "火属性"
+      }
     }
   },
   "眠狗龙王": {
-    "recommended_weapon": {
-      "type": "火属性",
-      "weapon": "永恒苦闷（妃蜘蛛）"
+    "type": "牙龙种",
+    "weakness": {
+      "fire": "★★★",
+      "water": "★",
+      "thunder": "★★",
+      "ice": "★★",
+      "dragon": "—"
+    },
+    "weakest_element": "火",
+    "weakest_parts": [
+      "头部"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★★",
+      "sleep": "—",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "炎王龙大剑",
+        "element": "火属性"
+      },
+      "太刀": {
+        "weapon": "炎王龙太刀",
+        "element": "火属性"
+      },
+      "片手剑": {
+        "weapon": "火龙片手剑",
+        "element": "火属性"
+      },
+      "双刀": {
+        "weapon": "火龙双刀",
+        "element": "火属性"
+      },
+      "长枪": {
+        "weapon": "炎王龙长枪",
+        "element": "火属性"
+      },
+      "铳枪": {
+        "weapon": "炎王龙铳枪",
+        "element": "火属性"
+      },
+      "大锤": {
+        "weapon": "炎王龙大锤",
+        "element": "火属性"
+      },
+      "狩猎笛": {
+        "weapon": "炎王龙狩猎笛",
+        "element": "火属性"
+      },
+      "斩斧": {
+        "weapon": "炎王龙斩斧",
+        "element": "火属性"
+      },
+      "操虫棍": {
+        "weapon": "火龙操虫棍",
+        "element": "火属性"
+      },
+      "轻弩": {
+        "weapon": "炎王龙轻弩",
+        "element": "火属性"
+      },
+      "重弩": {
+        "weapon": "炎王龙重弩",
+        "element": "火属性"
+      },
+      "弓": {
+        "weapon": "炎王龙弓",
+        "element": "火属性"
+      },
+      "盾斧": {
+        "weapon": "永恒苦闷（妃蜘蛛）",
+        "element": "火属性"
+      }
     }
   },
   "白兔兽": {
-    "recommended_weapon": {
-      "type": "火属性",
-      "weapon": "永恒苦闷（妃蜘蛛）"
+    "type": "牙兽种",
+    "weakness": {
+      "fire": "★★★",
+      "water": "—",
+      "thunder": "★★",
+      "ice": "—",
+      "dragon": "—"
+    },
+    "weakest_element": "火",
+    "weakest_parts": [
+      "头部",
+      "腹部"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★",
+      "sleep": "★★",
+      "blast": "★★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "炎王龙大剑",
+        "element": "火属性"
+      },
+      "太刀": {
+        "weapon": "炎王龙太刀",
+        "element": "火属性"
+      },
+      "片手剑": {
+        "weapon": "火龙片手剑",
+        "element": "火属性"
+      },
+      "双刀": {
+        "weapon": "火龙双刀",
+        "element": "火属性"
+      },
+      "长枪": {
+        "weapon": "炎王龙长枪",
+        "element": "火属性"
+      },
+      "铳枪": {
+        "weapon": "炎王龙铳枪",
+        "element": "火属性"
+      },
+      "大锤": {
+        "weapon": "炎王龙大锤",
+        "element": "火属性"
+      },
+      "狩猎笛": {
+        "weapon": "炎王龙狩猎笛",
+        "element": "火属性"
+      },
+      "斩斧": {
+        "weapon": "炎王龙斩斧",
+        "element": "火属性"
+      },
+      "操虫棍": {
+        "weapon": "火龙操虫棍",
+        "element": "火属性"
+      },
+      "轻弩": {
+        "weapon": "炎王龙轻弩",
+        "element": "火属性"
+      },
+      "重弩": {
+        "weapon": "炎王龙重弩",
+        "element": "火属性"
+      },
+      "弓": {
+        "weapon": "炎王龙弓",
+        "element": "火属性"
+      },
+      "盾斧": {
+        "weapon": "永恒苦闷（妃蜘蛛）",
+        "element": "火属性"
+      }
     }
   },
   "毒狗龙王": {
-    "recommended_weapon": {
-      "type": "雷属性",
-      "weapon": "神佑·雷祸宿命（雷神珑）"
+    "type": "牙龙种",
+    "weakness": {
+      "fire": "★★",
+      "water": "★★",
+      "thunder": "★★★",
+      "ice": "★★",
+      "dragon": "—"
+    },
+    "weakest_element": "雷",
+    "weakest_parts": [
+      "头部"
+    ],
+    "status_weakness": {
+      "poison": "—",
+      "paralysis": "★★★",
+      "sleep": "★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "雷狼龙大剑",
+        "element": "雷属性"
+      },
+      "太刀": {
+        "weapon": "雷狼龙太刀",
+        "element": "雷属性"
+      },
+      "片手剑": {
+        "weapon": "雷狼龙片手剑",
+        "element": "雷属性"
+      },
+      "双刀": {
+        "weapon": "雷狼龙双刀",
+        "element": "雷属性"
+      },
+      "长枪": {
+        "weapon": "雷神龙长枪",
+        "element": "雷属性"
+      },
+      "铳枪": {
+        "weapon": "雷神龙铳枪",
+        "element": "雷属性"
+      },
+      "大锤": {
+        "weapon": "雷狼龙大锤",
+        "element": "雷属性"
+      },
+      "狩猎笛": {
+        "weapon": "雷神龙狩猎笛",
+        "element": "雷属性"
+      },
+      "斩斧": {
+        "weapon": "雷狼龙斩斧",
+        "element": "雷属性"
+      },
+      "操虫棍": {
+        "weapon": "雷狼龙操虫棍",
+        "element": "雷属性"
+      },
+      "轻弩": {
+        "weapon": "雷狼龙轻弩",
+        "element": "雷属性"
+      },
+      "重弩": {
+        "weapon": "雷神龙重弩",
+        "element": "雷属性"
+      },
+      "弓": {
+        "weapon": "雷狼龙弓",
+        "element": "雷属性"
+      },
+      "盾斧": {
+        "weapon": "神佑·雷祸宿命（雷神珑）",
+        "element": "雷属性"
+      }
     }
   },
   "河童蛙": {
-    "recommended_weapon": {
-      "type": "雷属性",
-      "weapon": "神佑·雷祸宿命（雷神珑）"
+    "type": "两生种",
+    "weakness": {
+      "fire": "★★",
+      "water": "★",
+      "thunder": "★★★",
+      "ice": "★★",
+      "dragon": "—"
+    },
+    "weakest_element": "雷",
+    "weakest_parts": [
+      "头部",
+      "腹部"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★",
+      "sleep": "★★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "雷狼龙大剑",
+        "element": "雷属性"
+      },
+      "太刀": {
+        "weapon": "雷狼龙太刀",
+        "element": "雷属性"
+      },
+      "片手剑": {
+        "weapon": "雷狼龙片手剑",
+        "element": "雷属性"
+      },
+      "双刀": {
+        "weapon": "雷狼龙双刀",
+        "element": "雷属性"
+      },
+      "长枪": {
+        "weapon": "雷神龙长枪",
+        "element": "雷属性"
+      },
+      "铳枪": {
+        "weapon": "雷神龙铳枪",
+        "element": "雷属性"
+      },
+      "大锤": {
+        "weapon": "雷狼龙大锤",
+        "element": "雷属性"
+      },
+      "狩猎笛": {
+        "weapon": "雷神龙狩猎笛",
+        "element": "雷属性"
+      },
+      "斩斧": {
+        "weapon": "雷狼龙斩斧",
+        "element": "雷属性"
+      },
+      "操虫棍": {
+        "weapon": "雷狼龙操虫棍",
+        "element": "雷属性"
+      },
+      "轻弩": {
+        "weapon": "雷狼龙轻弩",
+        "element": "雷属性"
+      },
+      "重弩": {
+        "weapon": "雷神龙重弩",
+        "element": "雷属性"
+      },
+      "弓": {
+        "weapon": "雷狼龙弓",
+        "element": "雷属性"
+      },
+      "盾斧": {
+        "weapon": "神佑·雷祸宿命（雷神珑）",
+        "element": "雷属性"
+      }
     }
   },
   "搔鸟": {
-    "recommended_weapon": {
-      "type": "水属性",
-      "weapon": "新鲜斧黄金鲤之魂（海境衍生）"
+    "type": "鸟龙种",
+    "weakness": {
+      "fire": "★★",
+      "water": "★★★",
+      "thunder": "★★",
+      "ice": "★",
+      "dragon": "—"
+    },
+    "weakest_element": "水",
+    "weakest_parts": [
+      "头部",
+      "腹部"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★★",
+      "sleep": "★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "泥鱼龙大剑",
+        "element": "水属性"
+      },
+      "太刀": {
+        "weapon": "泡狐龙太刀",
+        "element": "水属性"
+      },
+      "片手剑": {
+        "weapon": "水兽片手剑",
+        "element": "水属性"
+      },
+      "双刀": {
+        "weapon": "泡狐龙双刀",
+        "element": "水属性"
+      },
+      "长枪": {
+        "weapon": "泡狐龙长枪",
+        "element": "水属性"
+      },
+      "铳枪": {
+        "weapon": "熔岩龙铳枪",
+        "element": "水属性"
+      },
+      "大锤": {
+        "weapon": "水兽大锤",
+        "element": "水属性"
+      },
+      "狩猎笛": {
+        "weapon": "泡狐龙狩猎笛",
+        "element": "水属性"
+      },
+      "斩斧": {
+        "weapon": "泡狐龙斩斧",
+        "element": "水属性"
+      },
+      "操虫棍": {
+        "weapon": "泡狐龙操虫棍",
+        "element": "水属性"
+      },
+      "轻弩": {
+        "weapon": "水兽轻弩",
+        "element": "水属性"
+      },
+      "重弩": {
+        "weapon": "熔岩龙重弩",
+        "element": "水属性"
+      },
+      "弓": {
+        "weapon": "泡狐龙弓",
+        "element": "水属性"
+      },
+      "盾斧": {
+        "weapon": "新鲜斧黄金鲤之魂（海境衍生）",
+        "element": "水属性"
+      }
     }
   },
   "水兽": {
-    "recommended_weapon": {
-      "type": "火属性",
-      "weapon": "永恒苦闷（妃蜘蛛）"
-    }
-  },
-  "水生兽": {
-    "recommended_weapon": {
-      "type": "火属性",
-      "weapon": "永恒苦闷（妃蜘蛛）"
+    "type": "海龙种",
+    "weakness": {
+      "fire": "★★★",
+      "water": "—",
+      "thunder": "★★",
+      "ice": "★★",
+      "dragon": "—"
+    },
+    "weakest_element": "火",
+    "weakest_parts": [
+      "头部",
+      "颈部"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★★",
+      "sleep": "★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "炎王龙大剑",
+        "element": "火属性"
+      },
+      "太刀": {
+        "weapon": "炎王龙太刀",
+        "element": "火属性"
+      },
+      "片手剑": {
+        "weapon": "火龙片手剑",
+        "element": "火属性"
+      },
+      "双刀": {
+        "weapon": "火龙双刀",
+        "element": "火属性"
+      },
+      "长枪": {
+        "weapon": "炎王龙长枪",
+        "element": "火属性"
+      },
+      "铳枪": {
+        "weapon": "炎王龙铳枪",
+        "element": "火属性"
+      },
+      "大锤": {
+        "weapon": "炎王龙大锤",
+        "element": "火属性"
+      },
+      "狩猎笛": {
+        "weapon": "炎王龙狩猎笛",
+        "element": "火属性"
+      },
+      "斩斧": {
+        "weapon": "炎王龙斩斧",
+        "element": "火属性"
+      },
+      "操虫棍": {
+        "weapon": "火龙操虫棍",
+        "element": "火属性"
+      },
+      "轻弩": {
+        "weapon": "炎王龙轻弩",
+        "element": "火属性"
+      },
+      "重弩": {
+        "weapon": "炎王龙重弩",
+        "element": "火属性"
+      },
+      "弓": {
+        "weapon": "炎王龙弓",
+        "element": "火属性"
+      },
+      "盾斧": {
+        "weapon": "永恒苦闷（妃蜘蛛）",
+        "element": "火属性"
+      }
     }
   },
   "土砂龙": {
-    "recommended_weapon": {
-      "type": "水属性",
-      "weapon": "新鲜斧黄金鲤之魂（海境衍生）"
+    "type": "兽龙种",
+    "weakness": {
+      "fire": "★",
+      "water": "★★★",
+      "thunder": "★★",
+      "ice": "★★",
+      "dragon": "—"
+    },
+    "weakest_element": "水",
+    "weakest_parts": [
+      "头部",
+      "前肢"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★",
+      "sleep": "★★★",
+      "blast": "★★",
+      "stun": "★★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "泥鱼龙大剑",
+        "element": "水属性"
+      },
+      "太刀": {
+        "weapon": "泡狐龙太刀",
+        "element": "水属性"
+      },
+      "片手剑": {
+        "weapon": "水兽片手剑",
+        "element": "水属性"
+      },
+      "双刀": {
+        "weapon": "泡狐龙双刀",
+        "element": "水属性"
+      },
+      "长枪": {
+        "weapon": "泡狐龙长枪",
+        "element": "水属性"
+      },
+      "铳枪": {
+        "weapon": "熔岩龙铳枪",
+        "element": "水属性"
+      },
+      "大锤": {
+        "weapon": "水兽大锤",
+        "element": "水属性"
+      },
+      "狩猎笛": {
+        "weapon": "泡狐龙狩猎笛",
+        "element": "水属性"
+      },
+      "斩斧": {
+        "weapon": "泡狐龙斩斧",
+        "element": "水属性"
+      },
+      "操虫棍": {
+        "weapon": "泡狐龙操虫棍",
+        "element": "水属性"
+      },
+      "轻弩": {
+        "weapon": "水兽轻弩",
+        "element": "水属性"
+      },
+      "重弩": {
+        "weapon": "熔岩龙重弩",
+        "element": "水属性"
+      },
+      "弓": {
+        "weapon": "泡狐龙弓",
+        "element": "水属性"
+      },
+      "盾斧": {
+        "weapon": "新鲜斧黄金鲤之魂（海境衍生）",
+        "element": "水属性"
+      }
     }
   },
   "奇怪龙": {
-    "recommended_weapon": {
-      "type": "火属性",
-      "weapon": "永恒苦闷（妃蜘蛛）"
+    "type": "飞龙种",
+    "weakness": {
+      "fire": "★★★",
+      "water": "★",
+      "thunder": "★★",
+      "ice": "★★",
+      "dragon": "★"
+    },
+    "weakest_element": "火",
+    "weakest_parts": [
+      "头部",
+      "躯干"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★★",
+      "sleep": "★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "炎王龙大剑",
+        "element": "火属性"
+      },
+      "太刀": {
+        "weapon": "炎王龙太刀",
+        "element": "火属性"
+      },
+      "片手剑": {
+        "weapon": "火龙片手剑",
+        "element": "火属性"
+      },
+      "双刀": {
+        "weapon": "火龙双刀",
+        "element": "火属性"
+      },
+      "长枪": {
+        "weapon": "炎王龙长枪",
+        "element": "火属性"
+      },
+      "铳枪": {
+        "weapon": "炎王龙铳枪",
+        "element": "火属性"
+      },
+      "大锤": {
+        "weapon": "炎王龙大锤",
+        "element": "火属性"
+      },
+      "狩猎笛": {
+        "weapon": "炎王龙狩猎笛",
+        "element": "火属性"
+      },
+      "斩斧": {
+        "weapon": "炎王龙斩斧",
+        "element": "火属性"
+      },
+      "操虫棍": {
+        "weapon": "火龙操虫棍",
+        "element": "火属性"
+      },
+      "轻弩": {
+        "weapon": "炎王龙轻弩",
+        "element": "火属性"
+      },
+      "重弩": {
+        "weapon": "炎王龙重弩",
+        "element": "火属性"
+      },
+      "弓": {
+        "weapon": "炎王龙弓",
+        "element": "火属性"
+      },
+      "盾斧": {
+        "weapon": "永恒苦闷（妃蜘蛛）",
+        "element": "火属性"
+      }
     }
   },
   "毒妖鸟": {
-    "recommended_weapon": {
-      "type": "雷属性",
-      "weapon": "神佑·雷祸宿命（雷神珑）"
+    "type": "鸟龙种",
+    "weakness": {
+      "fire": "★★",
+      "water": "★",
+      "thunder": "★★★",
+      "ice": "★★",
+      "dragon": "—"
+    },
+    "weakest_element": "雷",
+    "weakest_parts": [
+      "头部",
+      "尾部"
+    ],
+    "status_weakness": {
+      "poison": "—",
+      "paralysis": "★★★",
+      "sleep": "★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "雷狼龙大剑",
+        "element": "雷属性"
+      },
+      "太刀": {
+        "weapon": "雷狼龙太刀",
+        "element": "雷属性"
+      },
+      "片手剑": {
+        "weapon": "雷狼龙片手剑",
+        "element": "雷属性"
+      },
+      "双刀": {
+        "weapon": "雷狼龙双刀",
+        "element": "雷属性"
+      },
+      "长枪": {
+        "weapon": "雷神龙长枪",
+        "element": "雷属性"
+      },
+      "铳枪": {
+        "weapon": "雷神龙铳枪",
+        "element": "雷属性"
+      },
+      "大锤": {
+        "weapon": "雷狼龙大锤",
+        "element": "雷属性"
+      },
+      "狩猎笛": {
+        "weapon": "雷神龙狩猎笛",
+        "element": "雷属性"
+      },
+      "斩斧": {
+        "weapon": "雷狼龙斩斧",
+        "element": "雷属性"
+      },
+      "操虫棍": {
+        "weapon": "雷狼龙操虫棍",
+        "element": "雷属性"
+      },
+      "轻弩": {
+        "weapon": "雷狼龙轻弩",
+        "element": "雷属性"
+      },
+      "重弩": {
+        "weapon": "雷神龙重弩",
+        "element": "雷属性"
+      },
+      "弓": {
+        "weapon": "雷狼龙弓",
+        "element": "雷属性"
+      },
+      "盾斧": {
+        "weapon": "神佑·雷祸宿命（雷神珑）",
+        "element": "雷属性"
+      }
     }
   },
   "天狗兽": {
-    "recommended_weapon": {
-      "type": "冰属性",
-      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    "type": "牙兽种",
+    "weakness": {
+      "fire": "★★",
+      "water": "—",
+      "thunder": "—",
+      "ice": "★★★",
+      "dragon": "—"
+    },
+    "weakest_element": "冰",
+    "weakest_parts": [
+      "头部",
+      "尾巴"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★",
+      "sleep": "★★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "冰牙龙大剑",
+        "element": "冰属性"
+      },
+      "太刀": {
+        "weapon": "冰牙龙太刀",
+        "element": "冰属性"
+      },
+      "片手剑": {
+        "weapon": "冰牙龙片手剑",
+        "element": "冰属性"
+      },
+      "双刀": {
+        "weapon": "冰牙龙双刀",
+        "element": "冰属性"
+      },
+      "长枪": {
+        "weapon": "冰牙龙长枪",
+        "element": "冰属性"
+      },
+      "铳枪": {
+        "weapon": "冰牙龙铳枪",
+        "element": "冰属性"
+      },
+      "大锤": {
+        "weapon": "冰牙龙大锤",
+        "element": "冰属性"
+      },
+      "狩猎笛": {
+        "weapon": "冰牙龙狩猎笛",
+        "element": "冰属性"
+      },
+      "斩斧": {
+        "weapon": "冰牙龙斩斧",
+        "element": "冰属性"
+      },
+      "操虫棍": {
+        "weapon": "冰牙龙操虫棍",
+        "element": "冰属性"
+      },
+      "轻弩": {
+        "weapon": "冰牙龙轻弩",
+        "element": "冰属性"
+      },
+      "重弩": {
+        "weapon": "冰牙龙重弩",
+        "element": "冰属性"
+      },
+      "弓": {
+        "weapon": "冰牙龙弓",
+        "element": "冰属性"
+      },
+      "盾斧": {
+        "weapon": "极光雪斧雪人鱼（冰人鱼）",
+        "element": "冰属性"
+      }
     }
   },
   "绯天狗兽": {
-    "recommended_weapon": {
-      "type": "冰属性",
-      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    "type": "牙兽种",
+    "weakness": {
+      "fire": "—",
+      "water": "★★",
+      "thunder": "★★",
+      "ice": "★★★",
+      "dragon": "—"
+    },
+    "weakest_element": "冰",
+    "weakest_parts": [
+      "头部",
+      "尾巴"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★",
+      "sleep": "★★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "冰牙龙大剑",
+        "element": "冰属性"
+      },
+      "太刀": {
+        "weapon": "冰牙龙太刀",
+        "element": "冰属性"
+      },
+      "片手剑": {
+        "weapon": "冰牙龙片手剑",
+        "element": "冰属性"
+      },
+      "双刀": {
+        "weapon": "冰牙龙双刀",
+        "element": "冰属性"
+      },
+      "长枪": {
+        "weapon": "冰牙龙长枪",
+        "element": "冰属性"
+      },
+      "铳枪": {
+        "weapon": "冰牙龙铳枪",
+        "element": "冰属性"
+      },
+      "大锤": {
+        "weapon": "冰牙龙大锤",
+        "element": "冰属性"
+      },
+      "狩猎笛": {
+        "weapon": "冰牙龙狩猎笛",
+        "element": "冰属性"
+      },
+      "斩斧": {
+        "weapon": "冰牙龙斩斧",
+        "element": "冰属性"
+      },
+      "操虫棍": {
+        "weapon": "冰牙龙操虫棍",
+        "element": "冰属性"
+      },
+      "轻弩": {
+        "weapon": "冰牙龙轻弩",
+        "element": "冰属性"
+      },
+      "重弩": {
+        "weapon": "冰牙龙重弩",
+        "element": "冰属性"
+      },
+      "弓": {
+        "weapon": "冰牙龙弓",
+        "element": "冰属性"
+      },
+      "盾斧": {
+        "weapon": "极光雪斧雪人鱼（冰人鱼）",
+        "element": "冰属性"
+      }
     }
   },
   "飞雷龙": {
-    "recommended_weapon": {
-      "type": "冰属性",
-      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    "type": "牙龙种",
+    "weakness": {
+      "fire": "★★",
+      "water": "★★",
+      "thunder": "—",
+      "ice": "★★★",
+      "dragon": "—"
+    },
+    "weakest_element": "冰",
+    "weakest_parts": [
+      "头部",
+      "躯干"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★",
+      "sleep": "★★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "冰牙龙大剑",
+        "element": "冰属性"
+      },
+      "太刀": {
+        "weapon": "冰牙龙太刀",
+        "element": "冰属性"
+      },
+      "片手剑": {
+        "weapon": "冰牙龙片手剑",
+        "element": "冰属性"
+      },
+      "双刀": {
+        "weapon": "冰牙龙双刀",
+        "element": "冰属性"
+      },
+      "长枪": {
+        "weapon": "冰牙龙长枪",
+        "element": "冰属性"
+      },
+      "铳枪": {
+        "weapon": "冰牙龙铳枪",
+        "element": "冰属性"
+      },
+      "大锤": {
+        "weapon": "冰牙龙大锤",
+        "element": "冰属性"
+      },
+      "狩猎笛": {
+        "weapon": "冰牙龙狩猎笛",
+        "element": "冰属性"
+      },
+      "斩斧": {
+        "weapon": "冰牙龙斩斧",
+        "element": "冰属性"
+      },
+      "操虫棍": {
+        "weapon": "冰牙龙操虫棍",
+        "element": "冰属性"
+      },
+      "轻弩": {
+        "weapon": "冰牙龙轻弩",
+        "element": "冰属性"
+      },
+      "重弩": {
+        "weapon": "冰牙龙重弩",
+        "element": "冰属性"
+      },
+      "弓": {
+        "weapon": "冰牙龙弓",
+        "element": "冰属性"
+      },
+      "盾斧": {
+        "weapon": "极光雪斧雪人鱼（冰人鱼）",
+        "element": "冰属性"
+      }
     }
   },
   "雌火龙": {
-    "recommended_weapon": {
-      "type": "龙属性",
-      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    "type": "飞龙种",
+    "weakness": {
+      "fire": "—",
+      "water": "★★",
+      "thunder": "★★★",
+      "ice": "★★",
+      "dragon": "★★★"
+    },
+    "weakest_element": "龙、雷",
+    "weakest_parts": [
+      "头部",
+      "翼",
+      "尾巴"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★",
+      "sleep": "★★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "天彗龙大剑",
+        "element": "龙属性"
+      },
+      "太刀": {
+        "weapon": "天彗龙太刀",
+        "element": "龙属性"
+      },
+      "片手剑": {
+        "weapon": "钢龙片手剑",
+        "element": "龙属性"
+      },
+      "双刀": {
+        "weapon": "天彗龙双刀",
+        "element": "龙属性"
+      },
+      "长枪": {
+        "weapon": "钢龙长枪",
+        "element": "龙属性"
+      },
+      "铳枪": {
+        "weapon": "钢龙铳枪",
+        "element": "龙属性"
+      },
+      "大锤": {
+        "weapon": "天彗龙大锤",
+        "element": "龙属性"
+      },
+      "狩猎笛": {
+        "weapon": "钢龙狩猎笛",
+        "element": "龙属性"
+      },
+      "斩斧": {
+        "weapon": "天彗龙斩斧",
+        "element": "龙属性"
+      },
+      "操虫棍": {
+        "weapon": "天彗龙操虫棍",
+        "element": "龙属性"
+      },
+      "轻弩": {
+        "weapon": "天彗龙轻弩",
+        "element": "龙属性"
+      },
+      "重弩": {
+        "weapon": "天彗龙重弩",
+        "element": "龙属性"
+      },
+      "弓": {
+        "weapon": "天彗龙弓",
+        "element": "龙属性"
+      },
+      "盾斧": {
+        "weapon": "赤绝巧翼天津宿（天彗龙）",
+        "element": "龙属性"
+      }
     }
   },
   "火龙": {
-    "recommended_weapon": {
-      "type": "龙属性",
-      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    "type": "飞龙种",
+    "weakness": {
+      "fire": "—",
+      "water": "★★",
+      "thunder": "★★★",
+      "ice": "★★",
+      "dragon": "★★★"
+    },
+    "weakest_element": "龙、雷",
+    "weakest_parts": [
+      "头部",
+      "双翼"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★",
+      "sleep": "★★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "天彗龙大剑",
+        "element": "龙属性"
+      },
+      "太刀": {
+        "weapon": "天彗龙太刀",
+        "element": "龙属性"
+      },
+      "片手剑": {
+        "weapon": "钢龙片手剑",
+        "element": "龙属性"
+      },
+      "双刀": {
+        "weapon": "天彗龙双刀",
+        "element": "龙属性"
+      },
+      "长枪": {
+        "weapon": "钢龙长枪",
+        "element": "龙属性"
+      },
+      "铳枪": {
+        "weapon": "钢龙铳枪",
+        "element": "龙属性"
+      },
+      "大锤": {
+        "weapon": "天彗龙大锤",
+        "element": "龙属性"
+      },
+      "狩猎笛": {
+        "weapon": "钢龙狩猎笛",
+        "element": "龙属性"
+      },
+      "斩斧": {
+        "weapon": "天彗龙斩斧",
+        "element": "龙属性"
+      },
+      "操虫棍": {
+        "weapon": "天彗龙操虫棍",
+        "element": "龙属性"
+      },
+      "轻弩": {
+        "weapon": "天彗龙轻弩",
+        "element": "龙属性"
+      },
+      "重弩": {
+        "weapon": "天彗龙重弩",
+        "element": "龙属性"
+      },
+      "弓": {
+        "weapon": "天彗龙弓",
+        "element": "龙属性"
+      },
+      "盾斧": {
+        "weapon": "赤绝巧翼天津宿（天彗龙）",
+        "element": "龙属性"
+      }
     }
   },
   "人鱼龙": {
-    "recommended_weapon": {
-      "type": "雷属性",
-      "weapon": "神佑·雷祸宿命（雷神珑）"
+    "type": "海龙种",
+    "weakness": {
+      "fire": "★★",
+      "water": "—",
+      "thunder": "★★★",
+      "ice": "★★",
+      "dragon": "—"
+    },
+    "weakest_element": "雷",
+    "weakest_parts": [
+      "头部",
+      "前鳍"
+    ],
+    "status_weakness": {
+      "poison": "★★★",
+      "paralysis": "★★",
+      "sleep": "★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "雷狼龙大剑",
+        "element": "雷属性"
+      },
+      "太刀": {
+        "weapon": "雷狼龙太刀",
+        "element": "雷属性"
+      },
+      "片手剑": {
+        "weapon": "雷狼龙片手剑",
+        "element": "雷属性"
+      },
+      "双刀": {
+        "weapon": "雷狼龙双刀",
+        "element": "雷属性"
+      },
+      "长枪": {
+        "weapon": "雷神龙长枪",
+        "element": "雷属性"
+      },
+      "铳枪": {
+        "weapon": "雷神龙铳枪",
+        "element": "雷属性"
+      },
+      "大锤": {
+        "weapon": "雷狼龙大锤",
+        "element": "雷属性"
+      },
+      "狩猎笛": {
+        "weapon": "雷神龙狩猎笛",
+        "element": "雷属性"
+      },
+      "斩斧": {
+        "weapon": "雷狼龙斩斧",
+        "element": "雷属性"
+      },
+      "操虫棍": {
+        "weapon": "雷狼龙操虫棍",
+        "element": "雷属性"
+      },
+      "轻弩": {
+        "weapon": "雷狼龙轻弩",
+        "element": "雷属性"
+      },
+      "重弩": {
+        "weapon": "雷神龙重弩",
+        "element": "雷属性"
+      },
+      "弓": {
+        "weapon": "雷狼龙弓",
+        "element": "雷属性"
+      },
+      "盾斧": {
+        "weapon": "神佑·雷祸宿命（雷神珑）",
+        "element": "雷属性"
+      }
     }
   },
   "泥鱼龙": {
-    "recommended_weapon": {
-      "type": "榴弹瓶",
-      "weapon": "冥渊盾斧【裂地】（冥渊龙）"
+    "type": "海龙种",
+    "weakness": {
+      "fire": "★★",
+      "water": "—",
+      "thunder": "★★★",
+      "ice": "★★",
+      "dragon": "—"
+    },
+    "weakest_element": "雷",
+    "weakest_parts": [
+      "头部",
+      "背部"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★★",
+      "sleep": "★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "雷狼龙大剑",
+        "element": "雷属性"
+      },
+      "太刀": {
+        "weapon": "雷狼龙太刀",
+        "element": "雷属性"
+      },
+      "片手剑": {
+        "weapon": "雷狼龙片手剑",
+        "element": "雷属性"
+      },
+      "双刀": {
+        "weapon": "雷狼龙双刀",
+        "element": "雷属性"
+      },
+      "长枪": {
+        "weapon": "雷神龙长枪",
+        "element": "雷属性"
+      },
+      "铳枪": {
+        "weapon": "雷神龙铳枪",
+        "element": "雷属性"
+      },
+      "大锤": {
+        "weapon": "雷狼龙大锤",
+        "element": "雷属性"
+      },
+      "狩猎笛": {
+        "weapon": "雷神龙狩猎笛",
+        "element": "雷属性"
+      },
+      "斩斧": {
+        "weapon": "雷狼龙斩斧",
+        "element": "雷属性"
+      },
+      "操虫棍": {
+        "weapon": "雷狼龙操虫棍",
+        "element": "雷属性"
+      },
+      "轻弩": {
+        "weapon": "雷狼龙轻弩",
+        "element": "雷属性"
+      },
+      "重弩": {
+        "weapon": "雷神龙重弩",
+        "element": "雷属性"
+      },
+      "弓": {
+        "weapon": "雷狼龙弓",
+        "element": "雷属性"
+      },
+      "盾斧": {
+        "weapon": "冥渊盾斧【裂地】（冥渊龙）",
+        "element": "榴弹瓶"
+      }
     }
   },
   "蛮颚龙": {
-    "recommended_weapon": {
-      "type": "水属性",
-      "weapon": "新鲜斧黄金鲤之魂（海境衍生）"
+    "type": "兽龙种",
+    "weakness": {
+      "fire": "—",
+      "water": "★★★",
+      "thunder": "★★",
+      "ice": "★★",
+      "dragon": "★"
+    },
+    "weakest_element": "水",
+    "weakest_parts": [
+      "头部",
+      "腹部"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★",
+      "sleep": "★★★",
+      "blast": "★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "泥鱼龙大剑",
+        "element": "水属性"
+      },
+      "太刀": {
+        "weapon": "泡狐龙太刀",
+        "element": "水属性"
+      },
+      "片手剑": {
+        "weapon": "水兽片手剑",
+        "element": "水属性"
+      },
+      "双刀": {
+        "weapon": "泡狐龙双刀",
+        "element": "水属性"
+      },
+      "长枪": {
+        "weapon": "泡狐龙长枪",
+        "element": "水属性"
+      },
+      "铳枪": {
+        "weapon": "熔岩龙铳枪",
+        "element": "水属性"
+      },
+      "大锤": {
+        "weapon": "水兽大锤",
+        "element": "水属性"
+      },
+      "狩猎笛": {
+        "weapon": "泡狐龙狩猎笛",
+        "element": "水属性"
+      },
+      "斩斧": {
+        "weapon": "泡狐龙斩斧",
+        "element": "水属性"
+      },
+      "操虫棍": {
+        "weapon": "泡狐龙操虫棍",
+        "element": "水属性"
+      },
+      "轻弩": {
+        "weapon": "水兽轻弩",
+        "element": "水属性"
+      },
+      "重弩": {
+        "weapon": "熔岩龙重弩",
+        "element": "水属性"
+      },
+      "弓": {
+        "weapon": "泡狐龙弓",
+        "element": "水属性"
+      },
+      "盾斧": {
+        "weapon": "新鲜斧黄金鲤之魂（海境衍生）",
+        "element": "水属性"
+      }
     }
   },
   "岩龙": {
-    "recommended_weapon": {
-      "type": "龙属性",
-      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    "type": "飞龙种",
+    "weakness": {
+      "fire": "★",
+      "water": "★★",
+      "thunder": "★★",
+      "ice": "★★",
+      "dragon": "★★★"
+    },
+    "weakest_element": "龙",
+    "weakest_parts": [
+      "腹部",
+      "颈部"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★",
+      "sleep": "★★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "天彗龙大剑",
+        "element": "龙属性"
+      },
+      "太刀": {
+        "weapon": "天彗龙太刀",
+        "element": "龙属性"
+      },
+      "片手剑": {
+        "weapon": "钢龙片手剑",
+        "element": "龙属性"
+      },
+      "双刀": {
+        "weapon": "天彗龙双刀",
+        "element": "龙属性"
+      },
+      "长枪": {
+        "weapon": "钢龙长枪",
+        "element": "龙属性"
+      },
+      "铳枪": {
+        "weapon": "钢龙铳枪",
+        "element": "龙属性"
+      },
+      "大锤": {
+        "weapon": "天彗龙大锤",
+        "element": "龙属性"
+      },
+      "狩猎笛": {
+        "weapon": "钢龙狩猎笛",
+        "element": "龙属性"
+      },
+      "斩斧": {
+        "weapon": "天彗龙斩斧",
+        "element": "龙属性"
+      },
+      "操虫棍": {
+        "weapon": "天彗龙操虫棍",
+        "element": "龙属性"
+      },
+      "轻弩": {
+        "weapon": "天彗龙轻弩",
+        "element": "龙属性"
+      },
+      "重弩": {
+        "weapon": "天彗龙重弩",
+        "element": "龙属性"
+      },
+      "弓": {
+        "weapon": "天彗龙弓",
+        "element": "龙属性"
+      },
+      "盾斧": {
+        "weapon": "赤绝巧翼天津宿（天彗龙）",
+        "element": "龙属性"
+      }
     }
   },
   "天廻龙": {
-    "recommended_weapon": {
-      "type": "龙属性",
-      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    "type": "古龙种",
+    "weakness": {
+      "fire": "★★",
+      "water": "★★",
+      "thunder": "★★",
+      "ice": "★★",
+      "dragon": "★★★"
+    },
+    "weakest_element": "龙",
+    "weakest_parts": [
+      "头部",
+      "胸部",
+      "翅膀"
+    ],
+    "status_weakness": {
+      "poison": "—",
+      "paralysis": "—",
+      "sleep": "—",
+      "blast": "★★",
+      "stun": "—"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "天彗龙大剑",
+        "element": "龙属性"
+      },
+      "太刀": {
+        "weapon": "天彗龙太刀",
+        "element": "龙属性"
+      },
+      "片手剑": {
+        "weapon": "钢龙片手剑",
+        "element": "龙属性"
+      },
+      "双刀": {
+        "weapon": "天彗龙双刀",
+        "element": "龙属性"
+      },
+      "长枪": {
+        "weapon": "钢龙长枪",
+        "element": "龙属性"
+      },
+      "铳枪": {
+        "weapon": "钢龙铳枪",
+        "element": "龙属性"
+      },
+      "大锤": {
+        "weapon": "天彗龙大锤",
+        "element": "龙属性"
+      },
+      "狩猎笛": {
+        "weapon": "钢龙狩猎笛",
+        "element": "龙属性"
+      },
+      "斩斧": {
+        "weapon": "天彗龙斩斧",
+        "element": "龙属性"
+      },
+      "操虫棍": {
+        "weapon": "天彗龙操虫棍",
+        "element": "龙属性"
+      },
+      "轻弩": {
+        "weapon": "天彗龙轻弩",
+        "element": "龙属性"
+      },
+      "重弩": {
+        "weapon": "天彗龙重弩",
+        "element": "龙属性"
+      },
+      "弓": {
+        "weapon": "天彗龙弓",
+        "element": "龙属性"
+      },
+      "盾斧": {
+        "weapon": "赤绝巧翼天津宿（天彗龙）",
+        "element": "龙属性"
+      }
     }
   },
   "赤甲兽": {
-    "recommended_weapon": {
-      "type": "水属性",
-      "weapon": "新鲜斧黄金鲤之魂（海境衍生）"
+    "type": "牙兽种",
+    "weakness": {
+      "fire": "—",
+      "water": "★★★",
+      "thunder": "★★",
+      "ice": "★★",
+      "dragon": "—"
+    },
+    "weakest_element": "水",
+    "weakest_parts": [
+      "头部",
+      "腹部"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★★",
+      "sleep": "★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "泥鱼龙大剑",
+        "element": "水属性"
+      },
+      "太刀": {
+        "weapon": "泡狐龙太刀",
+        "element": "水属性"
+      },
+      "片手剑": {
+        "weapon": "水兽片手剑",
+        "element": "水属性"
+      },
+      "双刀": {
+        "weapon": "泡狐龙双刀",
+        "element": "水属性"
+      },
+      "长枪": {
+        "weapon": "泡狐龙长枪",
+        "element": "水属性"
+      },
+      "铳枪": {
+        "weapon": "熔岩龙铳枪",
+        "element": "水属性"
+      },
+      "大锤": {
+        "weapon": "水兽大锤",
+        "element": "水属性"
+      },
+      "狩猎笛": {
+        "weapon": "泡狐龙狩猎笛",
+        "element": "水属性"
+      },
+      "斩斧": {
+        "weapon": "泡狐龙斩斧",
+        "element": "水属性"
+      },
+      "操虫棍": {
+        "weapon": "泡狐龙操虫棍",
+        "element": "水属性"
+      },
+      "轻弩": {
+        "weapon": "水兽轻弩",
+        "element": "水属性"
+      },
+      "重弩": {
+        "weapon": "熔岩龙重弩",
+        "element": "水属性"
+      },
+      "弓": {
+        "weapon": "泡狐龙弓",
+        "element": "水属性"
+      },
+      "盾斧": {
+        "weapon": "新鲜斧黄金鲤之魂（海境衍生）",
+        "element": "水属性"
+      }
     }
   },
   "妃蜘蛛": {
-    "recommended_weapon": {
-      "type": "榴弹瓶",
-      "weapon": "冥渊盾斧【裂地】（冥渊龙）"
+    "type": "铗角种",
+    "weakness": {
+      "fire": "—",
+      "water": "★★",
+      "thunder": "—",
+      "ice": "★★★",
+      "dragon": "—"
+    },
+    "weakest_element": "冰、水",
+    "weakest_parts": [
+      "头部",
+      "腿部"
+    ],
+    "status_weakness": {
+      "poison": "—",
+      "paralysis": "★★",
+      "sleep": "★★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "冰牙龙大剑",
+        "element": "冰属性"
+      },
+      "太刀": {
+        "weapon": "冰牙龙太刀",
+        "element": "冰属性"
+      },
+      "片手剑": {
+        "weapon": "冰牙龙片手剑",
+        "element": "冰属性"
+      },
+      "双刀": {
+        "weapon": "冰牙龙双刀",
+        "element": "冰属性"
+      },
+      "长枪": {
+        "weapon": "冰牙龙长枪",
+        "element": "冰属性"
+      },
+      "铳枪": {
+        "weapon": "冰牙龙铳枪",
+        "element": "冰属性"
+      },
+      "大锤": {
+        "weapon": "冰牙龙大锤",
+        "element": "冰属性"
+      },
+      "狩猎笛": {
+        "weapon": "冰牙龙狩猎笛",
+        "element": "冰属性"
+      },
+      "斩斧": {
+        "weapon": "冰牙龙斩斧",
+        "element": "冰属性"
+      },
+      "操虫棍": {
+        "weapon": "冰牙龙操虫棍",
+        "element": "冰属性"
+      },
+      "轻弩": {
+        "weapon": "冰牙龙轻弩",
+        "element": "冰属性"
+      },
+      "重弩": {
+        "weapon": "冰牙龙重弩",
+        "element": "冰属性"
+      },
+      "弓": {
+        "weapon": "冰牙龙弓",
+        "element": "冰属性"
+      },
+      "盾斧": {
+        "weapon": "冥渊盾斧【裂地】（冥渊龙）",
+        "element": "榴弹瓶"
+      }
     }
   },
   "炽妃蜘蛛": {
-    "recommended_weapon": {
-      "type": "榴弹瓶",
-      "weapon": "冥渊盾斧【裂地】（冥渊龙）"
+    "type": "铗角种",
+    "weakness": {
+      "fire": "—",
+      "water": "★★★",
+      "thunder": "—",
+      "ice": "★★",
+      "dragon": "—"
+    },
+    "weakest_element": "水",
+    "weakest_parts": [
+      "头部",
+      "腿部"
+    ],
+    "status_weakness": {
+      "poison": "—",
+      "paralysis": "★★",
+      "sleep": "★★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "泥鱼龙大剑",
+        "element": "水属性"
+      },
+      "太刀": {
+        "weapon": "泡狐龙太刀",
+        "element": "水属性"
+      },
+      "片手剑": {
+        "weapon": "水兽片手剑",
+        "element": "水属性"
+      },
+      "双刀": {
+        "weapon": "泡狐龙双刀",
+        "element": "水属性"
+      },
+      "长枪": {
+        "weapon": "泡狐龙长枪",
+        "element": "水属性"
+      },
+      "铳枪": {
+        "weapon": "熔岩龙铳枪",
+        "element": "水属性"
+      },
+      "大锤": {
+        "weapon": "水兽大锤",
+        "element": "水属性"
+      },
+      "狩猎笛": {
+        "weapon": "泡狐龙狩猎笛",
+        "element": "水属性"
+      },
+      "斩斧": {
+        "weapon": "泡狐龙斩斧",
+        "element": "水属性"
+      },
+      "操虫棍": {
+        "weapon": "泡狐龙操虫棍",
+        "element": "水属性"
+      },
+      "轻弩": {
+        "weapon": "水兽轻弩",
+        "element": "水属性"
+      },
+      "重弩": {
+        "weapon": "熔岩龙重弩",
+        "element": "水属性"
+      },
+      "弓": {
+        "weapon": "泡狐龙弓",
+        "element": "水属性"
+      },
+      "盾斧": {
+        "weapon": "冥渊盾斧【裂地】（冥渊龙）",
+        "element": "榴弹瓶"
+      }
     }
   },
   "冰牙龙": {
-    "recommended_weapon": {
-      "type": "火属性",
-      "weapon": "永恒苦闷（妃蜘蛛）"
+    "type": "飞龙种",
+    "weakness": {
+      "fire": "★★★",
+      "water": "—",
+      "thunder": "★★",
+      "ice": "—",
+      "dragon": "★"
+    },
+    "weakest_element": "火、雷",
+    "weakest_parts": [
+      "头部",
+      "尾巴尖"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★★",
+      "sleep": "★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "炎王龙大剑",
+        "element": "火属性"
+      },
+      "太刀": {
+        "weapon": "炎王龙太刀",
+        "element": "火属性"
+      },
+      "片手剑": {
+        "weapon": "火龙片手剑",
+        "element": "火属性"
+      },
+      "双刀": {
+        "weapon": "火龙双刀",
+        "element": "火属性"
+      },
+      "长枪": {
+        "weapon": "炎王龙长枪",
+        "element": "火属性"
+      },
+      "铳枪": {
+        "weapon": "炎王龙铳枪",
+        "element": "火属性"
+      },
+      "大锤": {
+        "weapon": "炎王龙大锤",
+        "element": "火属性"
+      },
+      "狩猎笛": {
+        "weapon": "炎王龙狩猎笛",
+        "element": "火属性"
+      },
+      "斩斧": {
+        "weapon": "炎王龙斩斧",
+        "element": "火属性"
+      },
+      "操虫棍": {
+        "weapon": "火龙操虫棍",
+        "element": "火属性"
+      },
+      "轻弩": {
+        "weapon": "炎王龙轻弩",
+        "element": "火属性"
+      },
+      "重弩": {
+        "weapon": "炎王龙重弩",
+        "element": "火属性"
+      },
+      "弓": {
+        "weapon": "炎王龙弓",
+        "element": "火属性"
+      },
+      "盾斧": {
+        "weapon": "永恒苦闷（妃蜘蛛）",
+        "element": "火属性"
+      }
     }
   },
   "雪鬼兽": {
-    "recommended_weapon": {
-      "type": "火属性",
-      "weapon": "永恒苦闷（妃蜘蛛）"
+    "type": "牙兽种",
+    "weakness": {
+      "fire": "★★★",
+      "water": "—",
+      "thunder": "★★",
+      "ice": "—",
+      "dragon": "—"
+    },
+    "weakest_element": "火、雷",
+    "weakest_parts": [
+      "头部",
+      "前肢",
+      "冰块"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★",
+      "sleep": "★★★",
+      "blast": "★★",
+      "stun": "★★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "炎王龙大剑",
+        "element": "火属性"
+      },
+      "太刀": {
+        "weapon": "炎王龙太刀",
+        "element": "火属性"
+      },
+      "片手剑": {
+        "weapon": "火龙片手剑",
+        "element": "火属性"
+      },
+      "双刀": {
+        "weapon": "火龙双刀",
+        "element": "火属性"
+      },
+      "长枪": {
+        "weapon": "炎王龙长枪",
+        "element": "火属性"
+      },
+      "铳枪": {
+        "weapon": "炎王龙铳枪",
+        "element": "火属性"
+      },
+      "大锤": {
+        "weapon": "炎王龙大锤",
+        "element": "火属性"
+      },
+      "狩猎笛": {
+        "weapon": "炎王龙狩猎笛",
+        "element": "火属性"
+      },
+      "斩斧": {
+        "weapon": "炎王龙斩斧",
+        "element": "火属性"
+      },
+      "操虫棍": {
+        "weapon": "火龙操虫棍",
+        "element": "火属性"
+      },
+      "轻弩": {
+        "weapon": "炎王龙轻弩",
+        "element": "火属性"
+      },
+      "重弩": {
+        "weapon": "炎王龙重弩",
+        "element": "火属性"
+      },
+      "弓": {
+        "weapon": "炎王龙弓",
+        "element": "火属性"
+      },
+      "盾斧": {
+        "weapon": "永恒苦闷（妃蜘蛛）",
+        "element": "火属性"
+      }
     }
   },
   "怨虎龙": {
-    "recommended_weapon": {
-      "type": "水属性",
-      "weapon": "新鲜斧黄金鲤之魂（海境衍生）"
+    "type": "牙龙种",
+    "weakness": {
+      "fire": "—",
+      "water": "★★★",
+      "thunder": "★★★",
+      "ice": "★★",
+      "dragon": "—"
+    },
+    "weakest_element": "水、雷",
+    "weakest_parts": [
+      "头部",
+      "臂刃"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★",
+      "sleep": "★★★",
+      "blast": "★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "泥鱼龙大剑",
+        "element": "水属性"
+      },
+      "太刀": {
+        "weapon": "泡狐龙太刀",
+        "element": "水属性"
+      },
+      "片手剑": {
+        "weapon": "水兽片手剑",
+        "element": "水属性"
+      },
+      "双刀": {
+        "weapon": "泡狐龙双刀",
+        "element": "水属性"
+      },
+      "长枪": {
+        "weapon": "泡狐龙长枪",
+        "element": "水属性"
+      },
+      "铳枪": {
+        "weapon": "熔岩龙铳枪",
+        "element": "水属性"
+      },
+      "大锤": {
+        "weapon": "水兽大锤",
+        "element": "水属性"
+      },
+      "狩猎笛": {
+        "weapon": "泡狐龙狩猎笛",
+        "element": "水属性"
+      },
+      "斩斧": {
+        "weapon": "泡狐龙斩斧",
+        "element": "水属性"
+      },
+      "操虫棍": {
+        "weapon": "泡狐龙操虫棍",
+        "element": "水属性"
+      },
+      "轻弩": {
+        "weapon": "水兽轻弩",
+        "element": "水属性"
+      },
+      "重弩": {
+        "weapon": "熔岩龙重弩",
+        "element": "水属性"
+      },
+      "弓": {
+        "weapon": "泡狐龙弓",
+        "element": "水属性"
+      },
+      "盾斧": {
+        "weapon": "新鲜斧黄金鲤之魂（海境衍生）",
+        "element": "水属性"
+      }
     }
   },
   "刚缠兽": {
-    "recommended_weapon": {
-      "type": "雷属性",
-      "weapon": "神佑·雷祸宿命（雷神珑）"
+    "type": "牙兽种",
+    "weakness": {
+      "fire": "★★",
+      "water": "★★",
+      "thunder": "★★★",
+      "ice": "★★",
+      "dragon": "—"
+    },
+    "weakest_element": "雷",
+    "weakest_parts": [
+      "头部",
+      "肩部"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★",
+      "sleep": "★★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "雷狼龙大剑",
+        "element": "雷属性"
+      },
+      "太刀": {
+        "weapon": "雷狼龙太刀",
+        "element": "雷属性"
+      },
+      "片手剑": {
+        "weapon": "雷狼龙片手剑",
+        "element": "雷属性"
+      },
+      "双刀": {
+        "weapon": "雷狼龙双刀",
+        "element": "雷属性"
+      },
+      "长枪": {
+        "weapon": "雷神龙长枪",
+        "element": "雷属性"
+      },
+      "铳枪": {
+        "weapon": "雷神龙铳枪",
+        "element": "雷属性"
+      },
+      "大锤": {
+        "weapon": "雷狼龙大锤",
+        "element": "雷属性"
+      },
+      "狩猎笛": {
+        "weapon": "雷神龙狩猎笛",
+        "element": "雷属性"
+      },
+      "斩斧": {
+        "weapon": "雷狼龙斩斧",
+        "element": "雷属性"
+      },
+      "操虫棍": {
+        "weapon": "雷狼龙操虫棍",
+        "element": "雷属性"
+      },
+      "轻弩": {
+        "weapon": "雷狼龙轻弩",
+        "element": "雷属性"
+      },
+      "重弩": {
+        "weapon": "雷神龙重弩",
+        "element": "雷属性"
+      },
+      "弓": {
+        "weapon": "雷狼龙弓",
+        "element": "雷属性"
+      },
+      "盾斧": {
+        "weapon": "神佑·雷祸宿命（雷神珑）",
+        "element": "雷属性"
+      }
     }
   },
   "冰人鱼龙": {
-    "recommended_weapon": {
-      "type": "火属性",
-      "weapon": "永恒苦闷（妃蜘蛛）"
+    "type": "海龙种",
+    "weakness": {
+      "fire": "★★★",
+      "water": "—",
+      "thunder": "★★",
+      "ice": "—",
+      "dragon": "—"
+    },
+    "weakest_element": "火",
+    "weakest_parts": [
+      "头部",
+      "前鳍"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★★",
+      "sleep": "—",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "炎王龙大剑",
+        "element": "火属性"
+      },
+      "太刀": {
+        "weapon": "炎王龙太刀",
+        "element": "火属性"
+      },
+      "片手剑": {
+        "weapon": "火龙片手剑",
+        "element": "火属性"
+      },
+      "双刀": {
+        "weapon": "火龙双刀",
+        "element": "火属性"
+      },
+      "长枪": {
+        "weapon": "炎王龙长枪",
+        "element": "火属性"
+      },
+      "铳枪": {
+        "weapon": "炎王龙铳枪",
+        "element": "火属性"
+      },
+      "大锤": {
+        "weapon": "炎王龙大锤",
+        "element": "火属性"
+      },
+      "狩猎笛": {
+        "weapon": "炎王龙狩猎笛",
+        "element": "火属性"
+      },
+      "斩斧": {
+        "weapon": "炎王龙斩斧",
+        "element": "火属性"
+      },
+      "操虫棍": {
+        "weapon": "火龙操虫棍",
+        "element": "火属性"
+      },
+      "轻弩": {
+        "weapon": "炎王龙轻弩",
+        "element": "火属性"
+      },
+      "重弩": {
+        "weapon": "炎王龙重弩",
+        "element": "火属性"
+      },
+      "弓": {
+        "weapon": "炎王龙弓",
+        "element": "火属性"
+      },
+      "盾斧": {
+        "weapon": "永恒苦闷（妃蜘蛛）",
+        "element": "火属性"
+      }
     }
   },
   "迅龙": {
-    "recommended_weapon": {
-      "type": "雷属性",
-      "weapon": "神佑·雷祸宿命（雷神珑）"
+    "type": "飞龙种",
+    "weakness": {
+      "fire": "★★★",
+      "water": "—",
+      "thunder": "★★★",
+      "ice": "★★",
+      "dragon": "★★"
+    },
+    "weakest_element": "雷、火",
+    "weakest_parts": [
+      "头部",
+      "前肢",
+      "尾巴"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★★",
+      "sleep": "★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "雷狼龙大剑",
+        "element": "雷属性"
+      },
+      "太刀": {
+        "weapon": "雷狼龙太刀",
+        "element": "雷属性"
+      },
+      "片手剑": {
+        "weapon": "雷狼龙片手剑",
+        "element": "雷属性"
+      },
+      "双刀": {
+        "weapon": "雷狼龙双刀",
+        "element": "雷属性"
+      },
+      "长枪": {
+        "weapon": "雷神龙长枪",
+        "element": "雷属性"
+      },
+      "铳枪": {
+        "weapon": "雷神龙铳枪",
+        "element": "雷属性"
+      },
+      "大锤": {
+        "weapon": "雷狼龙大锤",
+        "element": "雷属性"
+      },
+      "狩猎笛": {
+        "weapon": "雷神龙狩猎笛",
+        "element": "雷属性"
+      },
+      "斩斧": {
+        "weapon": "雷狼龙斩斧",
+        "element": "雷属性"
+      },
+      "操虫棍": {
+        "weapon": "雷狼龙操虫棍",
+        "element": "雷属性"
+      },
+      "轻弩": {
+        "weapon": "雷狼龙轻弩",
+        "element": "雷属性"
+      },
+      "重弩": {
+        "weapon": "雷神龙重弩",
+        "element": "雷属性"
+      },
+      "弓": {
+        "weapon": "雷狼龙弓",
+        "element": "雷属性"
+      },
+      "盾斧": {
+        "weapon": "神佑·雷祸宿命（雷神珑）",
+        "element": "雷属性"
+      }
     }
   },
   "泥翁龙": {
-    "recommended_weapon": {
-      "type": "火属性",
-      "weapon": "永恒苦闷（妃蜘蛛）"
+    "type": "海龙种",
+    "weakness": {
+      "fire": "★★★",
+      "water": "—",
+      "thunder": "★★",
+      "ice": "★★",
+      "dragon": "—"
+    },
+    "weakest_element": "火",
+    "weakest_parts": [
+      "头部",
+      "背部"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★★",
+      "sleep": "★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "炎王龙大剑",
+        "element": "火属性"
+      },
+      "太刀": {
+        "weapon": "炎王龙太刀",
+        "element": "火属性"
+      },
+      "片手剑": {
+        "weapon": "火龙片手剑",
+        "element": "火属性"
+      },
+      "双刀": {
+        "weapon": "火龙双刀",
+        "element": "火属性"
+      },
+      "长枪": {
+        "weapon": "炎王龙长枪",
+        "element": "火属性"
+      },
+      "铳枪": {
+        "weapon": "炎王龙铳枪",
+        "element": "火属性"
+      },
+      "大锤": {
+        "weapon": "炎王龙大锤",
+        "element": "火属性"
+      },
+      "狩猎笛": {
+        "weapon": "炎王龙狩猎笛",
+        "element": "火属性"
+      },
+      "斩斧": {
+        "weapon": "炎王龙斩斧",
+        "element": "火属性"
+      },
+      "操虫棍": {
+        "weapon": "火龙操虫棍",
+        "element": "火属性"
+      },
+      "轻弩": {
+        "weapon": "炎王龙轻弩",
+        "element": "火属性"
+      },
+      "重弩": {
+        "weapon": "炎王龙重弩",
+        "element": "火属性"
+      },
+      "弓": {
+        "weapon": "炎王龙弓",
+        "element": "火属性"
+      },
+      "盾斧": {
+        "weapon": "永恒苦闷（妃蜘蛛）",
+        "element": "火属性"
+      }
     }
   },
   "冰狼龙": {
-    "recommended_weapon": {
-      "type": "火属性",
-      "weapon": "永恒苦闷（妃蜘蛛）"
+    "type": "牙龙种",
+    "weakness": {
+      "fire": "★★★",
+      "water": "—",
+      "thunder": "★★",
+      "ice": "—",
+      "dragon": "—"
+    },
+    "weakest_element": "火",
+    "weakest_parts": [
+      "头部",
+      "躯干"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★★",
+      "sleep": "★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "炎王龙大剑",
+        "element": "火属性"
+      },
+      "太刀": {
+        "weapon": "炎王龙太刀",
+        "element": "火属性"
+      },
+      "片手剑": {
+        "weapon": "火龙片手剑",
+        "element": "火属性"
+      },
+      "双刀": {
+        "weapon": "火龙双刀",
+        "element": "火属性"
+      },
+      "长枪": {
+        "weapon": "炎王龙长枪",
+        "element": "火属性"
+      },
+      "铳枪": {
+        "weapon": "炎王龙铳枪",
+        "element": "火属性"
+      },
+      "大锤": {
+        "weapon": "炎王龙大锤",
+        "element": "火属性"
+      },
+      "狩猎笛": {
+        "weapon": "炎王龙狩猎笛",
+        "element": "火属性"
+      },
+      "斩斧": {
+        "weapon": "炎王龙斩斧",
+        "element": "火属性"
+      },
+      "操虫棍": {
+        "weapon": "火龙操虫棍",
+        "element": "火属性"
+      },
+      "轻弩": {
+        "weapon": "炎王龙轻弩",
+        "element": "火属性"
+      },
+      "重弩": {
+        "weapon": "炎王龙重弩",
+        "element": "火属性"
+      },
+      "弓": {
+        "weapon": "炎王龙弓",
+        "element": "火属性"
+      },
+      "盾斧": {
+        "weapon": "永恒苦闷（妃蜘蛛）",
+        "element": "火属性"
+      }
     }
   },
   "泡狐龙": {
-    "recommended_weapon": {
-      "type": "冰属性",
-      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    "type": "海龙种",
+    "weakness": {
+      "fire": "★★",
+      "water": "—",
+      "thunder": "★★★",
+      "ice": "★★",
+      "dragon": "★★★"
+    },
+    "weakest_element": "雷、龙",
+    "weakest_parts": [
+      "头部",
+      "颈部",
+      "背鳍",
+      "尾巴"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★",
+      "sleep": "★★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "雷狼龙大剑",
+        "element": "雷属性"
+      },
+      "太刀": {
+        "weapon": "雷狼龙太刀",
+        "element": "雷属性"
+      },
+      "片手剑": {
+        "weapon": "雷狼龙片手剑",
+        "element": "雷属性"
+      },
+      "双刀": {
+        "weapon": "雷狼龙双刀",
+        "element": "雷属性"
+      },
+      "长枪": {
+        "weapon": "雷神龙长枪",
+        "element": "雷属性"
+      },
+      "铳枪": {
+        "weapon": "雷神龙铳枪",
+        "element": "雷属性"
+      },
+      "大锤": {
+        "weapon": "雷狼龙大锤",
+        "element": "雷属性"
+      },
+      "狩猎笛": {
+        "weapon": "雷神龙狩猎笛",
+        "element": "雷属性"
+      },
+      "斩斧": {
+        "weapon": "雷狼龙斩斧",
+        "element": "雷属性"
+      },
+      "操虫棍": {
+        "weapon": "雷狼龙操虫棍",
+        "element": "雷属性"
+      },
+      "轻弩": {
+        "weapon": "雷狼龙轻弩",
+        "element": "雷属性"
+      },
+      "重弩": {
+        "weapon": "雷神龙重弩",
+        "element": "雷属性"
+      },
+      "弓": {
+        "weapon": "雷狼龙弓",
+        "element": "雷属性"
+      },
+      "盾斧": {
+        "weapon": "极光雪斧雪人鱼（冰人鱼）",
+        "element": "冰属性"
+      }
     }
   },
   "角龙": {
-    "recommended_weapon": {
-      "type": "冰属性",
-      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    "type": "飞龙种",
+    "weakness": {
+      "fire": "★",
+      "water": "★★★",
+      "thunder": "★★",
+      "ice": "★★★",
+      "dragon": "★★★"
+    },
+    "weakest_element": "冰、水、龙",
+    "weakest_parts": [
+      "头部",
+      "颈部",
+      "腹部"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★★",
+      "sleep": "★★",
+      "blast": "★★",
+      "stun": "★★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "冰牙龙大剑",
+        "element": "冰属性"
+      },
+      "太刀": {
+        "weapon": "冰牙龙太刀",
+        "element": "冰属性"
+      },
+      "片手剑": {
+        "weapon": "冰牙龙片手剑",
+        "element": "冰属性"
+      },
+      "双刀": {
+        "weapon": "冰牙龙双刀",
+        "element": "冰属性"
+      },
+      "长枪": {
+        "weapon": "冰牙龙长枪",
+        "element": "冰属性"
+      },
+      "铳枪": {
+        "weapon": "冰牙龙铳枪",
+        "element": "冰属性"
+      },
+      "大锤": {
+        "weapon": "冰牙龙大锤",
+        "element": "冰属性"
+      },
+      "狩猎笛": {
+        "weapon": "冰牙龙狩猎笛",
+        "element": "冰属性"
+      },
+      "斩斧": {
+        "weapon": "冰牙龙斩斧",
+        "element": "冰属性"
+      },
+      "操虫棍": {
+        "weapon": "冰牙龙操虫棍",
+        "element": "冰属性"
+      },
+      "轻弩": {
+        "weapon": "冰牙龙轻弩",
+        "element": "冰属性"
+      },
+      "重弩": {
+        "weapon": "冰牙龙重弩",
+        "element": "冰属性"
+      },
+      "弓": {
+        "weapon": "冰牙龙弓",
+        "element": "冰属性"
+      },
+      "盾斧": {
+        "weapon": "极光雪斧雪人鱼（冰人鱼）",
+        "element": "冰属性"
+      }
     }
   },
   "电龙": {
-    "recommended_weapon": {
-      "type": "冰属性",
-      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    "type": "飞龙种",
+    "weakness": {
+      "fire": "★★",
+      "water": "★★",
+      "thunder": "—",
+      "ice": "★★★",
+      "dragon": "★"
+    },
+    "weakest_element": "冰",
+    "weakest_parts": [
+      "头部",
+      "躯干"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "—",
+      "sleep": "★★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "冰牙龙大剑",
+        "element": "冰属性"
+      },
+      "太刀": {
+        "weapon": "冰牙龙太刀",
+        "element": "冰属性"
+      },
+      "片手剑": {
+        "weapon": "冰牙龙片手剑",
+        "element": "冰属性"
+      },
+      "双刀": {
+        "weapon": "冰牙龙双刀",
+        "element": "冰属性"
+      },
+      "长枪": {
+        "weapon": "冰牙龙长枪",
+        "element": "冰属性"
+      },
+      "铳枪": {
+        "weapon": "冰牙龙铳枪",
+        "element": "冰属性"
+      },
+      "大锤": {
+        "weapon": "冰牙龙大锤",
+        "element": "冰属性"
+      },
+      "狩猎笛": {
+        "weapon": "冰牙龙狩猎笛",
+        "element": "冰属性"
+      },
+      "斩斧": {
+        "weapon": "冰牙龙斩斧",
+        "element": "冰属性"
+      },
+      "操虫棍": {
+        "weapon": "冰牙龙操虫棍",
+        "element": "冰属性"
+      },
+      "轻弩": {
+        "weapon": "冰牙龙轻弩",
+        "element": "冰属性"
+      },
+      "重弩": {
+        "weapon": "冰牙龙重弩",
+        "element": "冰属性"
+      },
+      "弓": {
+        "weapon": "冰牙龙弓",
+        "element": "冰属性"
+      },
+      "盾斧": {
+        "weapon": "极光雪斧雪人鱼（冰人鱼）",
+        "element": "冰属性"
+      }
     }
   },
   "雷狼龙": {
-    "recommended_weapon": {
-      "type": "冰属性",
-      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    "type": "牙龙种",
+    "weakness": {
+      "fire": "★★",
+      "water": "★★★",
+      "thunder": "—",
+      "ice": "★★★",
+      "dragon": "★★"
+    },
+    "weakest_element": "冰、水",
+    "weakest_parts": [
+      "头部"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "—",
+      "sleep": "★★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "冰牙龙大剑",
+        "element": "冰属性"
+      },
+      "太刀": {
+        "weapon": "冰牙龙太刀",
+        "element": "冰属性"
+      },
+      "片手剑": {
+        "weapon": "冰牙龙片手剑",
+        "element": "冰属性"
+      },
+      "双刀": {
+        "weapon": "冰牙龙双刀",
+        "element": "冰属性"
+      },
+      "长枪": {
+        "weapon": "冰牙龙长枪",
+        "element": "冰属性"
+      },
+      "铳枪": {
+        "weapon": "冰牙龙铳枪",
+        "element": "冰属性"
+      },
+      "大锤": {
+        "weapon": "冰牙龙大锤",
+        "element": "冰属性"
+      },
+      "狩猎笛": {
+        "weapon": "冰牙龙狩猎笛",
+        "element": "冰属性"
+      },
+      "斩斧": {
+        "weapon": "冰牙龙斩斧",
+        "element": "冰属性"
+      },
+      "操虫棍": {
+        "weapon": "冰牙龙操虫棍",
+        "element": "冰属性"
+      },
+      "轻弩": {
+        "weapon": "冰牙龙轻弩",
+        "element": "冰属性"
+      },
+      "重弩": {
+        "weapon": "冰牙龙重弩",
+        "element": "冰属性"
+      },
+      "弓": {
+        "weapon": "冰牙龙弓",
+        "element": "冰属性"
+      },
+      "盾斧": {
+        "weapon": "极光雪斧雪人鱼（冰人鱼）",
+        "element": "冰属性"
+      }
     }
   },
   "千刃龙": {
-    "recommended_weapon": {
-      "type": "雷属性",
-      "weapon": "神佑·雷祸宿命（雷神珑）"
+    "type": "飞龙种",
+    "weakness": {
+      "fire": "★",
+      "water": "★",
+      "thunder": "★★★",
+      "ice": "★★",
+      "dragon": "★"
+    },
+    "weakest_element": "雷",
+    "weakest_parts": [
+      "头部",
+      "腿部"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★★",
+      "sleep": "★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "雷狼龙大剑",
+        "element": "雷属性"
+      },
+      "太刀": {
+        "weapon": "雷狼龙太刀",
+        "element": "雷属性"
+      },
+      "片手剑": {
+        "weapon": "雷狼龙片手剑",
+        "element": "雷属性"
+      },
+      "双刀": {
+        "weapon": "雷狼龙双刀",
+        "element": "雷属性"
+      },
+      "长枪": {
+        "weapon": "雷神龙长枪",
+        "element": "雷属性"
+      },
+      "铳枪": {
+        "weapon": "雷神龙铳枪",
+        "element": "雷属性"
+      },
+      "大锤": {
+        "weapon": "雷狼龙大锤",
+        "element": "雷属性"
+      },
+      "狩猎笛": {
+        "weapon": "雷神龙狩猎笛",
+        "element": "雷属性"
+      },
+      "斩斧": {
+        "weapon": "雷狼龙斩斧",
+        "element": "雷属性"
+      },
+      "操虫棍": {
+        "weapon": "雷狼龙操虫棍",
+        "element": "雷属性"
+      },
+      "轻弩": {
+        "weapon": "雷狼龙轻弩",
+        "element": "雷属性"
+      },
+      "重弩": {
+        "weapon": "雷神龙重弩",
+        "element": "雷属性"
+      },
+      "弓": {
+        "weapon": "雷狼龙弓",
+        "element": "雷属性"
+      },
+      "盾斧": {
+        "weapon": "神佑·雷祸宿命（雷神珑）",
+        "element": "雷属性"
+      }
     }
   },
   "焰狐龙": {
-    "recommended_weapon": {
-      "type": "冰属性",
-      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    "type": "海龙种",
+    "weakness": {
+      "fire": "—",
+      "water": "★★★",
+      "thunder": "★★",
+      "ice": "★★",
+      "dragon": "★★"
+    },
+    "weakest_element": "水",
+    "weakest_parts": [
+      "头部",
+      "颈部"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★",
+      "sleep": "★★★",
+      "blast": "★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "泥鱼龙大剑",
+        "element": "水属性"
+      },
+      "太刀": {
+        "weapon": "泡狐龙太刀",
+        "element": "水属性"
+      },
+      "片手剑": {
+        "weapon": "水兽片手剑",
+        "element": "水属性"
+      },
+      "双刀": {
+        "weapon": "泡狐龙双刀",
+        "element": "水属性"
+      },
+      "长枪": {
+        "weapon": "泡狐龙长枪",
+        "element": "水属性"
+      },
+      "铳枪": {
+        "weapon": "熔岩龙铳枪",
+        "element": "水属性"
+      },
+      "大锤": {
+        "weapon": "水兽大锤",
+        "element": "水属性"
+      },
+      "狩猎笛": {
+        "weapon": "泡狐龙狩猎笛",
+        "element": "水属性"
+      },
+      "斩斧": {
+        "weapon": "泡狐龙斩斧",
+        "element": "水属性"
+      },
+      "操虫棍": {
+        "weapon": "泡狐龙操虫棍",
+        "element": "水属性"
+      },
+      "轻弩": {
+        "weapon": "水兽轻弩",
+        "element": "水属性"
+      },
+      "重弩": {
+        "weapon": "熔岩龙重弩",
+        "element": "水属性"
+      },
+      "弓": {
+        "weapon": "泡狐龙弓",
+        "element": "水属性"
+      },
+      "盾斧": {
+        "weapon": "极光雪斧雪人鱼（冰人鱼）",
+        "element": "冰属性"
+      }
     }
   },
   "轰龙": {
-    "recommended_weapon": {
-      "type": "雷属性",
-      "weapon": "神佑·雷祸宿命（雷神珑）"
+    "type": "飞龙种",
+    "weakness": {
+      "fire": "—",
+      "water": "★★",
+      "thunder": "★★★",
+      "ice": "★★",
+      "dragon": "★★★"
+    },
+    "weakest_element": "雷、龙",
+    "weakest_parts": [
+      "头部",
+      "前肢",
+      "尾巴"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★★",
+      "sleep": "★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "雷狼龙大剑",
+        "element": "雷属性"
+      },
+      "太刀": {
+        "weapon": "雷狼龙太刀",
+        "element": "雷属性"
+      },
+      "片手剑": {
+        "weapon": "雷狼龙片手剑",
+        "element": "雷属性"
+      },
+      "双刀": {
+        "weapon": "雷狼龙双刀",
+        "element": "雷属性"
+      },
+      "长枪": {
+        "weapon": "雷神龙长枪",
+        "element": "雷属性"
+      },
+      "铳枪": {
+        "weapon": "雷神龙铳枪",
+        "element": "雷属性"
+      },
+      "大锤": {
+        "weapon": "雷狼龙大锤",
+        "element": "雷属性"
+      },
+      "狩猎笛": {
+        "weapon": "雷神龙狩猎笛",
+        "element": "雷属性"
+      },
+      "斩斧": {
+        "weapon": "雷狼龙斩斧",
+        "element": "雷属性"
+      },
+      "操虫棍": {
+        "weapon": "雷狼龙操虫棍",
+        "element": "雷属性"
+      },
+      "轻弩": {
+        "weapon": "雷狼龙轻弩",
+        "element": "雷属性"
+      },
+      "重弩": {
+        "weapon": "雷神龙重弩",
+        "element": "雷属性"
+      },
+      "弓": {
+        "weapon": "雷狼龙弓",
+        "element": "雷属性"
+      },
+      "盾斧": {
+        "weapon": "神佑·雷祸宿命（雷神珑）",
+        "element": "雷属性"
+      }
     }
   },
   "棘龙": {
-    "recommended_weapon": {
-      "type": "冰属性",
-      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    "type": "飞龙种",
+    "weakness": {
+      "fire": "★★",
+      "water": "★★",
+      "thunder": "★★",
+      "ice": "★★★",
+      "dragon": "★★"
+    },
+    "weakest_element": "冰",
+    "weakest_parts": [
+      "头部",
+      "胸部",
+      "翅膀"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★★",
+      "sleep": "★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "冰牙龙大剑",
+        "element": "冰属性"
+      },
+      "太刀": {
+        "weapon": "冰牙龙太刀",
+        "element": "冰属性"
+      },
+      "片手剑": {
+        "weapon": "冰牙龙片手剑",
+        "element": "冰属性"
+      },
+      "双刀": {
+        "weapon": "冰牙龙双刀",
+        "element": "冰属性"
+      },
+      "长枪": {
+        "weapon": "冰牙龙长枪",
+        "element": "冰属性"
+      },
+      "铳枪": {
+        "weapon": "冰牙龙铳枪",
+        "element": "冰属性"
+      },
+      "大锤": {
+        "weapon": "冰牙龙大锤",
+        "element": "冰属性"
+      },
+      "狩猎笛": {
+        "weapon": "冰牙龙狩猎笛",
+        "element": "冰属性"
+      },
+      "斩斧": {
+        "weapon": "冰牙龙斩斧",
+        "element": "冰属性"
+      },
+      "操虫棍": {
+        "weapon": "冰牙龙操虫棍",
+        "element": "冰属性"
+      },
+      "轻弩": {
+        "weapon": "冰牙龙轻弩",
+        "element": "冰属性"
+      },
+      "重弩": {
+        "weapon": "冰牙龙重弩",
+        "element": "冰属性"
+      },
+      "弓": {
+        "weapon": "冰牙龙弓",
+        "element": "冰属性"
+      },
+      "盾斧": {
+        "weapon": "极光雪斧雪人鱼（冰人鱼）",
+        "element": "冰属性"
+      }
     }
   },
   "黑蚀龙": {
-    "recommended_weapon": {
-      "type": "龙属性",
-      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    "type": "古龙种",
+    "weakness": {
+      "fire": "★★",
+      "water": "★★",
+      "thunder": "★★",
+      "ice": "★★",
+      "dragon": "★★★"
+    },
+    "weakest_element": "龙",
+    "weakest_parts": [
+      "头部",
+      "前肢",
+      "翅膀"
+    ],
+    "status_weakness": {
+      "poison": "—",
+      "paralysis": "—",
+      "sleep": "—",
+      "blast": "★★",
+      "stun": "—"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "天彗龙大剑",
+        "element": "龙属性"
+      },
+      "太刀": {
+        "weapon": "天彗龙太刀",
+        "element": "龙属性"
+      },
+      "片手剑": {
+        "weapon": "钢龙片手剑",
+        "element": "龙属性"
+      },
+      "双刀": {
+        "weapon": "天彗龙双刀",
+        "element": "龙属性"
+      },
+      "长枪": {
+        "weapon": "钢龙长枪",
+        "element": "龙属性"
+      },
+      "铳枪": {
+        "weapon": "钢龙铳枪",
+        "element": "龙属性"
+      },
+      "大锤": {
+        "weapon": "天彗龙大锤",
+        "element": "龙属性"
+      },
+      "狩猎笛": {
+        "weapon": "钢龙狩猎笛",
+        "element": "龙属性"
+      },
+      "斩斧": {
+        "weapon": "天彗龙斩斧",
+        "element": "龙属性"
+      },
+      "操虫棍": {
+        "weapon": "天彗龙操虫棍",
+        "element": "龙属性"
+      },
+      "轻弩": {
+        "weapon": "天彗龙轻弩",
+        "element": "龙属性"
+      },
+      "重弩": {
+        "weapon": "天彗龙重弩",
+        "element": "龙属性"
+      },
+      "弓": {
+        "weapon": "天彗龙弓",
+        "element": "龙属性"
+      },
+      "盾斧": {
+        "weapon": "赤绝巧翼天津宿（天彗龙）",
+        "element": "龙属性"
+      }
     }
   },
   "金狮子": {
-    "recommended_weapon": {
-      "type": "冰属性",
-      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    "type": "牙兽种",
+    "weakness": {
+      "fire": "—",
+      "water": "★★",
+      "thunder": "—",
+      "ice": "★★★",
+      "dragon": "—"
+    },
+    "weakest_element": "冰",
+    "weakest_parts": [
+      "头部",
+      "躯干",
+      "前肢"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★",
+      "sleep": "★★★",
+      "blast": "★★",
+      "stun": "★★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "冰牙龙大剑",
+        "element": "冰属性"
+      },
+      "太刀": {
+        "weapon": "冰牙龙太刀",
+        "element": "冰属性"
+      },
+      "片手剑": {
+        "weapon": "冰牙龙片手剑",
+        "element": "冰属性"
+      },
+      "双刀": {
+        "weapon": "冰牙龙双刀",
+        "element": "冰属性"
+      },
+      "长枪": {
+        "weapon": "冰牙龙长枪",
+        "element": "冰属性"
+      },
+      "铳枪": {
+        "weapon": "冰牙龙铳枪",
+        "element": "冰属性"
+      },
+      "大锤": {
+        "weapon": "冰牙龙大锤",
+        "element": "冰属性"
+      },
+      "狩猎笛": {
+        "weapon": "冰牙龙狩猎笛",
+        "element": "冰属性"
+      },
+      "斩斧": {
+        "weapon": "冰牙龙斩斧",
+        "element": "冰属性"
+      },
+      "操虫棍": {
+        "weapon": "冰牙龙操虫棍",
+        "element": "冰属性"
+      },
+      "轻弩": {
+        "weapon": "冰牙龙轻弩",
+        "element": "冰属性"
+      },
+      "重弩": {
+        "weapon": "冰牙龙重弩",
+        "element": "冰属性"
+      },
+      "弓": {
+        "weapon": "冰牙龙弓",
+        "element": "冰属性"
+      },
+      "盾斧": {
+        "weapon": "极光雪斧雪人鱼（冰人鱼）",
+        "element": "冰属性"
+      }
     }
   },
   "爆鳞龙": {
-    "recommended_weapon": {
-      "type": "冰属性",
-      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    "type": "飞龙种",
+    "weakness": {
+      "fire": "—",
+      "water": "★★",
+      "thunder": "★★",
+      "ice": "★★★",
+      "dragon": "★★"
+    },
+    "weakest_element": "冰",
+    "weakest_parts": [
+      "头部",
+      "腹部",
+      "翅膀"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★★",
+      "sleep": "★★",
+      "blast": "—",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "冰牙龙大剑",
+        "element": "冰属性"
+      },
+      "太刀": {
+        "weapon": "冰牙龙太刀",
+        "element": "冰属性"
+      },
+      "片手剑": {
+        "weapon": "冰牙龙片手剑",
+        "element": "冰属性"
+      },
+      "双刀": {
+        "weapon": "冰牙龙双刀",
+        "element": "冰属性"
+      },
+      "长枪": {
+        "weapon": "冰牙龙长枪",
+        "element": "冰属性"
+      },
+      "铳枪": {
+        "weapon": "冰牙龙铳枪",
+        "element": "冰属性"
+      },
+      "大锤": {
+        "weapon": "冰牙龙大锤",
+        "element": "冰属性"
+      },
+      "狩猎笛": {
+        "weapon": "冰牙龙狩猎笛",
+        "element": "冰属性"
+      },
+      "斩斧": {
+        "weapon": "冰牙龙斩斧",
+        "element": "冰属性"
+      },
+      "操虫棍": {
+        "weapon": "冰牙龙操虫棍",
+        "element": "冰属性"
+      },
+      "轻弩": {
+        "weapon": "冰牙龙轻弩",
+        "element": "冰属性"
+      },
+      "重弩": {
+        "weapon": "冰牙龙重弩",
+        "element": "冰属性"
+      },
+      "弓": {
+        "weapon": "冰牙龙弓",
+        "element": "冰属性"
+      },
+      "盾斧": {
+        "weapon": "极光雪斧雪人鱼（冰人鱼）",
+        "element": "冰属性"
+      }
     }
   },
   "激昂金狮子": {
-    "recommended_weapon": {
-      "type": "冰属性",
-      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    "type": "牙兽种",
+    "weakness": {
+      "fire": "—",
+      "water": "★★",
+      "thunder": "—",
+      "ice": "★★★",
+      "dragon": "—"
+    },
+    "weakest_element": "冰",
+    "weakest_parts": [
+      "头部",
+      "躯干",
+      "前肢"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★",
+      "sleep": "★★★",
+      "blast": "★★",
+      "stun": "★★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "冰牙龙大剑",
+        "element": "冰属性"
+      },
+      "太刀": {
+        "weapon": "冰牙龙太刀",
+        "element": "冰属性"
+      },
+      "片手剑": {
+        "weapon": "冰牙龙片手剑",
+        "element": "冰属性"
+      },
+      "双刀": {
+        "weapon": "冰牙龙双刀",
+        "element": "冰属性"
+      },
+      "长枪": {
+        "weapon": "冰牙龙长枪",
+        "element": "冰属性"
+      },
+      "铳枪": {
+        "weapon": "冰牙龙铳枪",
+        "element": "冰属性"
+      },
+      "大锤": {
+        "weapon": "冰牙龙大锤",
+        "element": "冰属性"
+      },
+      "狩猎笛": {
+        "weapon": "冰牙龙狩猎笛",
+        "element": "冰属性"
+      },
+      "斩斧": {
+        "weapon": "冰牙龙斩斧",
+        "element": "冰属性"
+      },
+      "操虫棍": {
+        "weapon": "冰牙龙操虫棍",
+        "element": "冰属性"
+      },
+      "轻弩": {
+        "weapon": "冰牙龙轻弩",
+        "element": "冰属性"
+      },
+      "重弩": {
+        "weapon": "冰牙龙重弩",
+        "element": "冰属性"
+      },
+      "弓": {
+        "weapon": "冰牙龙弓",
+        "element": "冰属性"
+      },
+      "盾斧": {
+        "weapon": "极光雪斧雪人鱼（冰人鱼）",
+        "element": "冰属性"
+      }
     }
   },
   "嗟怨震天怨虎龙": {
-    "recommended_weapon": {
-      "type": "水属性",
-      "weapon": "新鲜斧黄金鲤之魂（海境衍生）"
+    "type": "牙龙种",
+    "weakness": {
+      "fire": "—",
+      "water": "★★★",
+      "thunder": "★★",
+      "ice": "★",
+      "dragon": "—"
+    },
+    "weakest_element": "水",
+    "weakest_parts": [
+      "头部",
+      "前脚",
+      "尾刃"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★",
+      "sleep": "★★★",
+      "blast": "★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "泥鱼龙大剑",
+        "element": "水属性"
+      },
+      "太刀": {
+        "weapon": "泡狐龙太刀",
+        "element": "水属性"
+      },
+      "片手剑": {
+        "weapon": "水兽片手剑",
+        "element": "水属性"
+      },
+      "双刀": {
+        "weapon": "泡狐龙双刀",
+        "element": "水属性"
+      },
+      "长枪": {
+        "weapon": "泡狐龙长枪",
+        "element": "水属性"
+      },
+      "铳枪": {
+        "weapon": "熔岩龙铳枪",
+        "element": "水属性"
+      },
+      "大锤": {
+        "weapon": "水兽大锤",
+        "element": "水属性"
+      },
+      "狩猎笛": {
+        "weapon": "泡狐龙狩猎笛",
+        "element": "水属性"
+      },
+      "斩斧": {
+        "weapon": "泡狐龙斩斧",
+        "element": "水属性"
+      },
+      "操虫棍": {
+        "weapon": "泡狐龙操虫棍",
+        "element": "水属性"
+      },
+      "轻弩": {
+        "weapon": "水兽轻弩",
+        "element": "水属性"
+      },
+      "重弩": {
+        "weapon": "熔岩龙重弩",
+        "element": "水属性"
+      },
+      "弓": {
+        "weapon": "泡狐龙弓",
+        "element": "水属性"
+      },
+      "盾斧": {
+        "weapon": "新鲜斧黄金鲤之魂（海境衍生）",
+        "element": "水属性"
+      }
     }
   },
   "棘茶龙": {
-    "recommended_weapon": {
-      "type": "水属性",
-      "weapon": "新鲜斧黄金鲤之魂（海境衍生）"
+    "type": "飞龙种",
+    "weakness": {
+      "fire": "★★",
+      "water": "★★★",
+      "thunder": "★★",
+      "ice": "★★",
+      "dragon": "★"
+    },
+    "weakest_element": "水",
+    "weakest_parts": [
+      "头部",
+      "腹部"
+    ],
+    "status_weakness": {
+      "poison": "—",
+      "paralysis": "★★★",
+      "sleep": "★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "泥鱼龙大剑",
+        "element": "水属性"
+      },
+      "太刀": {
+        "weapon": "泡狐龙太刀",
+        "element": "水属性"
+      },
+      "片手剑": {
+        "weapon": "水兽片手剑",
+        "element": "水属性"
+      },
+      "双刀": {
+        "weapon": "泡狐龙双刀",
+        "element": "水属性"
+      },
+      "长枪": {
+        "weapon": "泡狐龙长枪",
+        "element": "水属性"
+      },
+      "铳枪": {
+        "weapon": "熔岩龙铳枪",
+        "element": "水属性"
+      },
+      "大锤": {
+        "weapon": "水兽大锤",
+        "element": "水属性"
+      },
+      "狩猎笛": {
+        "weapon": "泡狐龙狩猎笛",
+        "element": "水属性"
+      },
+      "斩斧": {
+        "weapon": "泡狐龙斩斧",
+        "element": "水属性"
+      },
+      "操虫棍": {
+        "weapon": "泡狐龙操虫棍",
+        "element": "水属性"
+      },
+      "轻弩": {
+        "weapon": "水兽轻弩",
+        "element": "水属性"
+      },
+      "重弩": {
+        "weapon": "熔岩龙重弩",
+        "element": "水属性"
+      },
+      "弓": {
+        "weapon": "泡狐龙弓",
+        "element": "水属性"
+      },
+      "盾斧": {
+        "weapon": "新鲜斧黄金鲤之魂（海境衍生）",
+        "element": "水属性"
+      }
     }
   },
   "金火龙": {
-    "recommended_weapon": {
-      "type": "龙属性",
-      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    "type": "飞龙种",
+    "weakness": {
+      "fire": "—",
+      "water": "★★",
+      "thunder": "★★★",
+      "ice": "★★",
+      "dragon": "★★★"
+    },
+    "weakest_element": "龙、雷",
+    "weakest_parts": [
+      "头部",
+      "翼",
+      "尾巴"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★",
+      "sleep": "★★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "天彗龙大剑",
+        "element": "龙属性"
+      },
+      "太刀": {
+        "weapon": "天彗龙太刀",
+        "element": "龙属性"
+      },
+      "片手剑": {
+        "weapon": "钢龙片手剑",
+        "element": "龙属性"
+      },
+      "双刀": {
+        "weapon": "天彗龙双刀",
+        "element": "龙属性"
+      },
+      "长枪": {
+        "weapon": "钢龙长枪",
+        "element": "龙属性"
+      },
+      "铳枪": {
+        "weapon": "钢龙铳枪",
+        "element": "龙属性"
+      },
+      "大锤": {
+        "weapon": "天彗龙大锤",
+        "element": "龙属性"
+      },
+      "狩猎笛": {
+        "weapon": "钢龙狩猎笛",
+        "element": "龙属性"
+      },
+      "斩斧": {
+        "weapon": "天彗龙斩斧",
+        "element": "龙属性"
+      },
+      "操虫棍": {
+        "weapon": "天彗龙操虫棍",
+        "element": "龙属性"
+      },
+      "轻弩": {
+        "weapon": "天彗龙轻弩",
+        "element": "龙属性"
+      },
+      "重弩": {
+        "weapon": "天彗龙重弩",
+        "element": "龙属性"
+      },
+      "弓": {
+        "weapon": "天彗龙弓",
+        "element": "龙属性"
+      },
+      "盾斧": {
+        "weapon": "赤绝巧翼天津宿（天彗龙）",
+        "element": "龙属性"
+      }
     }
   },
   "银火龙": {
-    "recommended_weapon": {
-      "type": "龙属性",
-      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    "type": "飞龙种",
+    "weakness": {
+      "fire": "—",
+      "water": "★★",
+      "thunder": "★★★",
+      "ice": "★★",
+      "dragon": "★★★"
+    },
+    "weakest_element": "龙、雷",
+    "weakest_parts": [
+      "头部",
+      "双翼"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★",
+      "sleep": "★★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "天彗龙大剑",
+        "element": "龙属性"
+      },
+      "太刀": {
+        "weapon": "天彗龙太刀",
+        "element": "龙属性"
+      },
+      "片手剑": {
+        "weapon": "钢龙片手剑",
+        "element": "龙属性"
+      },
+      "双刀": {
+        "weapon": "天彗龙双刀",
+        "element": "龙属性"
+      },
+      "长枪": {
+        "weapon": "钢龙长枪",
+        "element": "龙属性"
+      },
+      "铳枪": {
+        "weapon": "钢龙铳枪",
+        "element": "龙属性"
+      },
+      "大锤": {
+        "weapon": "天彗龙大锤",
+        "element": "龙属性"
+      },
+      "狩猎笛": {
+        "weapon": "钢龙狩猎笛",
+        "element": "龙属性"
+      },
+      "斩斧": {
+        "weapon": "天彗龙斩斧",
+        "element": "龙属性"
+      },
+      "操虫棍": {
+        "weapon": "天彗龙操虫棍",
+        "element": "龙属性"
+      },
+      "轻弩": {
+        "weapon": "天彗龙轻弩",
+        "element": "龙属性"
+      },
+      "重弩": {
+        "weapon": "天彗龙重弩",
+        "element": "龙属性"
+      },
+      "弓": {
+        "weapon": "天彗龙弓",
+        "element": "龙属性"
+      },
+      "盾斧": {
+        "weapon": "赤绝巧翼天津宿（天彗龙）",
+        "element": "龙属性"
+      }
     }
   },
   "红莲爆鳞龙": {
-    "recommended_weapon": {
-      "type": "冰属性",
-      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    "type": "飞龙种",
+    "weakness": {
+      "fire": "—",
+      "water": "★★★",
+      "thunder": "★★",
+      "ice": "★★",
+      "dragon": "★★"
+    },
+    "weakest_element": "水、冰",
+    "weakest_parts": [
+      "头部",
+      "腹部",
+      "翅膀"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★★",
+      "sleep": "★★",
+      "blast": "—",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "泥鱼龙大剑",
+        "element": "水属性"
+      },
+      "太刀": {
+        "weapon": "泡狐龙太刀",
+        "element": "水属性"
+      },
+      "片手剑": {
+        "weapon": "水兽片手剑",
+        "element": "水属性"
+      },
+      "双刀": {
+        "weapon": "泡狐龙双刀",
+        "element": "水属性"
+      },
+      "长枪": {
+        "weapon": "泡狐龙长枪",
+        "element": "水属性"
+      },
+      "铳枪": {
+        "weapon": "熔岩龙铳枪",
+        "element": "水属性"
+      },
+      "大锤": {
+        "weapon": "水兽大锤",
+        "element": "水属性"
+      },
+      "狩猎笛": {
+        "weapon": "泡狐龙狩猎笛",
+        "element": "水属性"
+      },
+      "斩斧": {
+        "weapon": "泡狐龙斩斧",
+        "element": "水属性"
+      },
+      "操虫棍": {
+        "weapon": "泡狐龙操虫棍",
+        "element": "水属性"
+      },
+      "轻弩": {
+        "weapon": "水兽轻弩",
+        "element": "水属性"
+      },
+      "重弩": {
+        "weapon": "熔岩龙重弩",
+        "element": "水属性"
+      },
+      "弓": {
+        "weapon": "泡狐龙弓",
+        "element": "水属性"
+      },
+      "盾斧": {
+        "weapon": "极光雪斧雪人鱼（冰人鱼）",
+        "element": "冰属性"
+      }
     }
   },
   "混沌黑蚀龙": {
-    "recommended_weapon": {
-      "type": "龙属性",
-      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    "type": "古龙种",
+    "weakness": {
+      "fire": "★★",
+      "water": "★★",
+      "thunder": "★★",
+      "ice": "★★",
+      "dragon": "★★★"
+    },
+    "weakest_element": "龙",
+    "weakest_parts": [
+      "头部",
+      "前肢",
+      "翅膀"
+    ],
+    "status_weakness": {
+      "poison": "—",
+      "paralysis": "—",
+      "sleep": "—",
+      "blast": "★★",
+      "stun": "—"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "天彗龙大剑",
+        "element": "龙属性"
+      },
+      "太刀": {
+        "weapon": "天彗龙太刀",
+        "element": "龙属性"
+      },
+      "片手剑": {
+        "weapon": "钢龙片手剑",
+        "element": "龙属性"
+      },
+      "双刀": {
+        "weapon": "天彗龙双刀",
+        "element": "龙属性"
+      },
+      "长枪": {
+        "weapon": "钢龙长枪",
+        "element": "龙属性"
+      },
+      "铳枪": {
+        "weapon": "钢龙铳枪",
+        "element": "龙属性"
+      },
+      "大锤": {
+        "weapon": "天彗龙大锤",
+        "element": "龙属性"
+      },
+      "狩猎笛": {
+        "weapon": "钢龙狩猎笛",
+        "element": "龙属性"
+      },
+      "斩斧": {
+        "weapon": "天彗龙斩斧",
+        "element": "龙属性"
+      },
+      "操虫棍": {
+        "weapon": "天彗龙操虫棍",
+        "element": "龙属性"
+      },
+      "轻弩": {
+        "weapon": "天彗龙轻弩",
+        "element": "龙属性"
+      },
+      "重弩": {
+        "weapon": "天彗龙重弩",
+        "element": "龙属性"
+      },
+      "弓": {
+        "weapon": "天彗龙弓",
+        "element": "龙属性"
+      },
+      "盾斧": {
+        "weapon": "赤绝巧翼天津宿（天彗龙）",
+        "element": "龙属性"
+      }
     }
   },
   "霞龙": {
-    "recommended_weapon": {
-      "type": "火属性",
-      "weapon": "永恒苦闷（妃蜘蛛）"
+    "type": "古龙种",
+    "weakness": {
+      "fire": "★★★",
+      "water": "—",
+      "thunder": "★★",
+      "ice": "—",
+      "dragon": "★★★"
+    },
+    "weakest_element": "火、龙",
+    "weakest_parts": [
+      "头部",
+      "前肢",
+      "尾巴"
+    ],
+    "status_weakness": {
+      "poison": "—",
+      "paralysis": "—",
+      "sleep": "—",
+      "blast": "★★",
+      "stun": "—"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "炎王龙大剑",
+        "element": "火属性"
+      },
+      "太刀": {
+        "weapon": "炎王龙太刀",
+        "element": "火属性"
+      },
+      "片手剑": {
+        "weapon": "火龙片手剑",
+        "element": "火属性"
+      },
+      "双刀": {
+        "weapon": "火龙双刀",
+        "element": "火属性"
+      },
+      "长枪": {
+        "weapon": "炎王龙长枪",
+        "element": "火属性"
+      },
+      "铳枪": {
+        "weapon": "炎王龙铳枪",
+        "element": "火属性"
+      },
+      "大锤": {
+        "weapon": "炎王龙大锤",
+        "element": "火属性"
+      },
+      "狩猎笛": {
+        "weapon": "炎王龙狩猎笛",
+        "element": "火属性"
+      },
+      "斩斧": {
+        "weapon": "炎王龙斩斧",
+        "element": "火属性"
+      },
+      "操虫棍": {
+        "weapon": "火龙操虫棍",
+        "element": "火属性"
+      },
+      "轻弩": {
+        "weapon": "炎王龙轻弩",
+        "element": "火属性"
+      },
+      "重弩": {
+        "weapon": "炎王龙重弩",
+        "element": "火属性"
+      },
+      "弓": {
+        "weapon": "炎王龙弓",
+        "element": "火属性"
+      },
+      "盾斧": {
+        "weapon": "永恒苦闷（妃蜘蛛）",
+        "element": "火属性"
+      }
     }
   },
   "钢龙": {
-    "recommended_weapon": {
-      "type": "雷属性",
-      "weapon": "神佑·雷祸宿命（雷神珑）"
+    "type": "古龙种",
+    "weakness": {
+      "fire": "★★",
+      "water": "—",
+      "thunder": "★★★",
+      "ice": "—",
+      "dragon": "★★"
+    },
+    "weakest_element": "雷",
+    "weakest_parts": [
+      "头部",
+      "前肢"
+    ],
+    "status_weakness": {
+      "poison": "—",
+      "paralysis": "—",
+      "sleep": "—",
+      "blast": "★★",
+      "stun": "—"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "雷狼龙大剑",
+        "element": "雷属性"
+      },
+      "太刀": {
+        "weapon": "雷狼龙太刀",
+        "element": "雷属性"
+      },
+      "片手剑": {
+        "weapon": "雷狼龙片手剑",
+        "element": "雷属性"
+      },
+      "双刀": {
+        "weapon": "雷狼龙双刀",
+        "element": "雷属性"
+      },
+      "长枪": {
+        "weapon": "雷神龙长枪",
+        "element": "雷属性"
+      },
+      "铳枪": {
+        "weapon": "雷神龙铳枪",
+        "element": "雷属性"
+      },
+      "大锤": {
+        "weapon": "雷狼龙大锤",
+        "element": "雷属性"
+      },
+      "狩猎笛": {
+        "weapon": "雷神龙狩猎笛",
+        "element": "雷属性"
+      },
+      "斩斧": {
+        "weapon": "雷狼龙斩斧",
+        "element": "雷属性"
+      },
+      "操虫棍": {
+        "weapon": "雷狼龙操虫棍",
+        "element": "雷属性"
+      },
+      "轻弩": {
+        "weapon": "雷狼龙轻弩",
+        "element": "雷属性"
+      },
+      "重弩": {
+        "weapon": "雷神龙重弩",
+        "element": "雷属性"
+      },
+      "弓": {
+        "weapon": "雷狼龙弓",
+        "element": "雷属性"
+      },
+      "盾斧": {
+        "weapon": "神佑·雷祸宿命（雷神珑）",
+        "element": "雷属性"
+      }
     }
   },
   "炎王龙": {
-    "recommended_weapon": {
-      "type": "冰属性",
-      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    "type": "古龙种",
+    "weakness": {
+      "fire": "—",
+      "water": "★★★",
+      "thunder": "★",
+      "ice": "★★★",
+      "dragon": "★"
+    },
+    "weakest_element": "水、冰",
+    "weakest_parts": [
+      "头部"
+    ],
+    "status_weakness": {
+      "poison": "—",
+      "paralysis": "—",
+      "sleep": "—",
+      "blast": "—",
+      "stun": "—"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "泥鱼龙大剑",
+        "element": "水属性"
+      },
+      "太刀": {
+        "weapon": "泡狐龙太刀",
+        "element": "水属性"
+      },
+      "片手剑": {
+        "weapon": "水兽片手剑",
+        "element": "水属性"
+      },
+      "双刀": {
+        "weapon": "泡狐龙双刀",
+        "element": "水属性"
+      },
+      "长枪": {
+        "weapon": "泡狐龙长枪",
+        "element": "水属性"
+      },
+      "铳枪": {
+        "weapon": "熔岩龙铳枪",
+        "element": "水属性"
+      },
+      "大锤": {
+        "weapon": "水兽大锤",
+        "element": "水属性"
+      },
+      "狩猎笛": {
+        "weapon": "泡狐龙狩猎笛",
+        "element": "水属性"
+      },
+      "斩斧": {
+        "weapon": "泡狐龙斩斧",
+        "element": "水属性"
+      },
+      "操虫棍": {
+        "weapon": "泡狐龙操虫棍",
+        "element": "水属性"
+      },
+      "轻弩": {
+        "weapon": "水兽轻弩",
+        "element": "水属性"
+      },
+      "重弩": {
+        "weapon": "熔岩龙重弩",
+        "element": "水属性"
+      },
+      "弓": {
+        "weapon": "泡狐龙弓",
+        "element": "水属性"
+      },
+      "盾斧": {
+        "weapon": "极光雪斧雪人鱼（冰人鱼）",
+        "element": "冰属性"
+      }
     }
   },
   "神秘红光天彗龙": {
-    "recommended_weapon": {
-      "type": "龙属性",
-      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    "type": "古龙种",
+    "weakness": {
+      "fire": "★★★",
+      "water": "★★★",
+      "thunder": "★★★",
+      "ice": "★★★",
+      "dragon": "—"
+    },
+    "weakest_element": "火/水/雷/冰（龙属性以外全有效）",
+    "weakest_parts": [
+      "头部",
+      "翼足",
+      "尾巴"
+    ],
+    "status_weakness": {
+      "poison": "—",
+      "paralysis": "—",
+      "sleep": "—",
+      "blast": "★★",
+      "stun": "—"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "炎王龙大剑",
+        "element": "火属性"
+      },
+      "太刀": {
+        "weapon": "炎王龙太刀",
+        "element": "火属性"
+      },
+      "片手剑": {
+        "weapon": "火龙片手剑",
+        "element": "火属性"
+      },
+      "双刀": {
+        "weapon": "火龙双刀",
+        "element": "火属性"
+      },
+      "长枪": {
+        "weapon": "炎王龙长枪",
+        "element": "火属性"
+      },
+      "铳枪": {
+        "weapon": "炎王龙铳枪",
+        "element": "火属性"
+      },
+      "大锤": {
+        "weapon": "炎王龙大锤",
+        "element": "火属性"
+      },
+      "狩猎笛": {
+        "weapon": "炎王龙狩猎笛",
+        "element": "火属性"
+      },
+      "斩斧": {
+        "weapon": "炎王龙斩斧",
+        "element": "火属性"
+      },
+      "操虫棍": {
+        "weapon": "火龙操虫棍",
+        "element": "火属性"
+      },
+      "轻弩": {
+        "weapon": "炎王龙轻弩",
+        "element": "火属性"
+      },
+      "重弩": {
+        "weapon": "炎王龙重弩",
+        "element": "火属性"
+      },
+      "弓": {
+        "weapon": "炎王龙弓",
+        "element": "火属性"
+      },
+      "盾斧": {
+        "weapon": "赤绝巧翼天津宿（天彗龙）",
+        "element": "龙属性"
+      }
     }
   },
   "冥渊龙": {
-    "recommended_weapon": {
-      "type": "龙属性",
-      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    "type": "古龙种",
+    "weakness": {
+      "fire": "★",
+      "water": "★",
+      "thunder": "★★",
+      "ice": "★",
+      "dragon": "★★★"
+    },
+    "weakest_element": "龙、雷",
+    "weakest_parts": [
+      "头部",
+      "尾巴尖"
+    ],
+    "status_weakness": {
+      "poison": "—",
+      "paralysis": "—",
+      "sleep": "—",
+      "blast": "★★",
+      "stun": "—"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "天彗龙大剑",
+        "element": "龙属性"
+      },
+      "太刀": {
+        "weapon": "天彗龙太刀",
+        "element": "龙属性"
+      },
+      "片手剑": {
+        "weapon": "钢龙片手剑",
+        "element": "龙属性"
+      },
+      "双刀": {
+        "weapon": "天彗龙双刀",
+        "element": "龙属性"
+      },
+      "长枪": {
+        "weapon": "钢龙长枪",
+        "element": "龙属性"
+      },
+      "铳枪": {
+        "weapon": "钢龙铳枪",
+        "element": "龙属性"
+      },
+      "大锤": {
+        "weapon": "天彗龙大锤",
+        "element": "龙属性"
+      },
+      "狩猎笛": {
+        "weapon": "钢龙狩猎笛",
+        "element": "龙属性"
+      },
+      "斩斧": {
+        "weapon": "天彗龙斩斧",
+        "element": "龙属性"
+      },
+      "操虫棍": {
+        "weapon": "天彗龙操虫棍",
+        "element": "龙属性"
+      },
+      "轻弩": {
+        "weapon": "天彗龙轻弩",
+        "element": "龙属性"
+      },
+      "重弩": {
+        "weapon": "天彗龙重弩",
+        "element": "龙属性"
+      },
+      "弓": {
+        "weapon": "天彗龙弓",
+        "element": "龙属性"
+      },
+      "盾斧": {
+        "weapon": "赤绝巧翼天津宿（天彗龙）",
+        "element": "龙属性"
+      }
     }
   },
   "岚龙": {
-    "recommended_weapon": {
-      "type": "龙属性",
-      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    "type": "古龙种",
+    "weakness": {
+      "fire": "★★★",
+      "water": "—",
+      "thunder": "—",
+      "ice": "—",
+      "dragon": "★★★"
+    },
+    "weakest_element": "龙、火",
+    "weakest_parts": [
+      "头部",
+      "前肢"
+    ],
+    "status_weakness": {
+      "poison": "—",
+      "paralysis": "—",
+      "sleep": "—",
+      "blast": "★★",
+      "stun": "—"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "天彗龙大剑",
+        "element": "龙属性"
+      },
+      "太刀": {
+        "weapon": "天彗龙太刀",
+        "element": "龙属性"
+      },
+      "片手剑": {
+        "weapon": "钢龙片手剑",
+        "element": "龙属性"
+      },
+      "双刀": {
+        "weapon": "天彗龙双刀",
+        "element": "龙属性"
+      },
+      "长枪": {
+        "weapon": "钢龙长枪",
+        "element": "龙属性"
+      },
+      "铳枪": {
+        "weapon": "钢龙铳枪",
+        "element": "龙属性"
+      },
+      "大锤": {
+        "weapon": "天彗龙大锤",
+        "element": "龙属性"
+      },
+      "狩猎笛": {
+        "weapon": "钢龙狩猎笛",
+        "element": "龙属性"
+      },
+      "斩斧": {
+        "weapon": "天彗龙斩斧",
+        "element": "龙属性"
+      },
+      "操虫棍": {
+        "weapon": "天彗龙操虫棍",
+        "element": "龙属性"
+      },
+      "轻弩": {
+        "weapon": "天彗龙轻弩",
+        "element": "龙属性"
+      },
+      "重弩": {
+        "weapon": "天彗龙重弩",
+        "element": "龙属性"
+      },
+      "弓": {
+        "weapon": "天彗龙弓",
+        "element": "龙属性"
+      },
+      "盾斧": {
+        "weapon": "赤绝巧翼天津宿（天彗龙）",
+        "element": "龙属性"
+      }
     }
   },
   "爵银龙": {
-    "recommended_weapon": {
-      "type": "龙属性",
-      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    "type": "古龙种",
+    "weakness": {
+      "fire": "★★",
+      "water": "—",
+      "thunder": "—",
+      "ice": "—",
+      "dragon": "★★★"
+    },
+    "weakest_element": "龙、火",
+    "weakest_parts": [
+      "头部",
+      "前肢"
+    ],
+    "status_weakness": {
+      "poison": "—",
+      "paralysis": "—",
+      "sleep": "—",
+      "blast": "★★",
+      "stun": "—"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "天彗龙大剑",
+        "element": "龙属性"
+      },
+      "太刀": {
+        "weapon": "天彗龙太刀",
+        "element": "龙属性"
+      },
+      "片手剑": {
+        "weapon": "钢龙片手剑",
+        "element": "龙属性"
+      },
+      "双刀": {
+        "weapon": "天彗龙双刀",
+        "element": "龙属性"
+      },
+      "长枪": {
+        "weapon": "钢龙长枪",
+        "element": "龙属性"
+      },
+      "铳枪": {
+        "weapon": "钢龙铳枪",
+        "element": "龙属性"
+      },
+      "大锤": {
+        "weapon": "天彗龙大锤",
+        "element": "龙属性"
+      },
+      "狩猎笛": {
+        "weapon": "钢龙狩猎笛",
+        "element": "龙属性"
+      },
+      "斩斧": {
+        "weapon": "天彗龙斩斧",
+        "element": "龙属性"
+      },
+      "操虫棍": {
+        "weapon": "天彗龙操虫棍",
+        "element": "龙属性"
+      },
+      "轻弩": {
+        "weapon": "天彗龙轻弩",
+        "element": "龙属性"
+      },
+      "重弩": {
+        "weapon": "天彗龙重弩",
+        "element": "龙属性"
+      },
+      "弓": {
+        "weapon": "天彗龙弓",
+        "element": "龙属性"
+      },
+      "盾斧": {
+        "weapon": "赤绝巧翼天津宿（天彗龙）",
+        "element": "龙属性"
+      }
     }
   },
   "原初形态爵银龙": {
-    "recommended_weapon": {
-      "type": "龙属性",
-      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    "type": "古龙种",
+    "weakness": {
+      "fire": "★★",
+      "water": "—",
+      "thunder": "—",
+      "ice": "—",
+      "dragon": "★★★"
+    },
+    "weakest_element": "龙、火",
+    "weakest_parts": [
+      "头部",
+      "前肢"
+    ],
+    "status_weakness": {
+      "poison": "—",
+      "paralysis": "—",
+      "sleep": "—",
+      "blast": "★★",
+      "stun": "—"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "原初形态天彗龙大剑",
+        "element": "龙属性"
+      },
+      "太刀": {
+        "weapon": "原初形态天彗龙太刀",
+        "element": "龙属性"
+      },
+      "片手剑": {
+        "weapon": "原初形态钢龙片手剑",
+        "element": "龙属性"
+      },
+      "双刀": {
+        "weapon": "原初形态天彗龙双刀",
+        "element": "龙属性"
+      },
+      "长枪": {
+        "weapon": "原初形态钢龙长枪",
+        "element": "龙属性"
+      },
+      "铳枪": {
+        "weapon": "原初形态钢龙铳枪",
+        "element": "龙属性"
+      },
+      "大锤": {
+        "weapon": "原初形态天彗龙大锤",
+        "element": "龙属性"
+      },
+      "狩猎笛": {
+        "weapon": "原初形态钢龙狩猎笛",
+        "element": "龙属性"
+      },
+      "斩斧": {
+        "weapon": "原初形态天彗龙斩斧",
+        "element": "龙属性"
+      },
+      "操虫棍": {
+        "weapon": "原初形态天彗龙操虫棍",
+        "element": "龙属性"
+      },
+      "轻弩": {
+        "weapon": "原初形态天彗龙轻弩",
+        "element": "龙属性"
+      },
+      "重弩": {
+        "weapon": "原初形态天彗龙重弩",
+        "element": "龙属性"
+      },
+      "弓": {
+        "weapon": "原初形态天彗龙弓",
+        "element": "龙属性"
+      },
+      "盾斧": {
+        "weapon": "赤绝巧翼天津宿（天彗龙）",
+        "element": "龙属性"
+      }
     }
   },
   "百龙渊源雷神龙": {
-    "recommended_weapon": {
-      "type": "雷属性",
-      "weapon": "神佑·雷祸宿命（雷神珑）"
+    "type": "古龙种",
+    "weakness": {
+      "fire": "★★",
+      "water": "★★",
+      "thunder": "—",
+      "ice": "★★",
+      "dragon": "★★"
+    },
+    "weakest_element": "雷属性免疫，其他属性均衡",
+    "weakest_parts": [
+      "头部",
+      "腹部"
+    ],
+    "status_weakness": {
+      "poison": "—",
+      "paralysis": "—",
+      "sleep": "—",
+      "blast": "★★",
+      "stun": "—"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "角龙大剑",
+        "element": "物理"
+      },
+      "太刀": {
+        "weapon": "角龙太刀",
+        "element": "物理"
+      },
+      "片手剑": {
+        "weapon": "角龙片手剑",
+        "element": "物理"
+      },
+      "双刀": {
+        "weapon": "角龙双刀",
+        "element": "物理"
+      },
+      "长枪": {
+        "weapon": "角龙长枪",
+        "element": "物理"
+      },
+      "铳枪": {
+        "weapon": "角龙铳枪",
+        "element": "物理"
+      },
+      "大锤": {
+        "weapon": "角龙大锤",
+        "element": "物理"
+      },
+      "狩猎笛": {
+        "weapon": "角龙狩猎笛",
+        "element": "物理"
+      },
+      "斩斧": {
+        "weapon": "角龙斩斧",
+        "element": "物理"
+      },
+      "操虫棍": {
+        "weapon": "角龙操虫棍",
+        "element": "物理"
+      },
+      "轻弩": {
+        "weapon": "角龙轻弩",
+        "element": "物理"
+      },
+      "重弩": {
+        "weapon": "角龙重弩",
+        "element": "物理"
+      },
+      "弓": {
+        "weapon": "角龙弓",
+        "element": "物理"
+      },
+      "盾斧": {
+        "weapon": "神佑·雷祸宿命（雷神珑）",
+        "element": "雷属性"
+      }
     }
   },
   "风神龙": {
-    "recommended_weapon": {
-      "type": "龙属性",
-      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    "type": "古龙种",
+    "weakness": {
+      "fire": "★★",
+      "water": "★★",
+      "thunder": "★★",
+      "ice": "★★",
+      "dragon": "★★★"
+    },
+    "weakest_element": "龙",
+    "weakest_parts": [
+      "头部",
+      "颈部"
+    ],
+    "status_weakness": {
+      "poison": "—",
+      "paralysis": "—",
+      "sleep": "—",
+      "blast": "★★",
+      "stun": "—"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "天彗龙大剑",
+        "element": "龙属性"
+      },
+      "太刀": {
+        "weapon": "天彗龙太刀",
+        "element": "龙属性"
+      },
+      "片手剑": {
+        "weapon": "钢龙片手剑",
+        "element": "龙属性"
+      },
+      "双刀": {
+        "weapon": "天彗龙双刀",
+        "element": "龙属性"
+      },
+      "长枪": {
+        "weapon": "钢龙长枪",
+        "element": "龙属性"
+      },
+      "铳枪": {
+        "weapon": "钢龙铳枪",
+        "element": "龙属性"
+      },
+      "大锤": {
+        "weapon": "天彗龙大锤",
+        "element": "龙属性"
+      },
+      "狩猎笛": {
+        "weapon": "钢龙狩猎笛",
+        "element": "龙属性"
+      },
+      "斩斧": {
+        "weapon": "天彗龙斩斧",
+        "element": "龙属性"
+      },
+      "操虫棍": {
+        "weapon": "天彗龙操虫棍",
+        "element": "龙属性"
+      },
+      "轻弩": {
+        "weapon": "天彗龙轻弩",
+        "element": "龙属性"
+      },
+      "重弩": {
+        "weapon": "天彗龙重弩",
+        "element": "龙属性"
+      },
+      "弓": {
+        "weapon": "天彗龙弓",
+        "element": "龙属性"
+      },
+      "盾斧": {
+        "weapon": "赤绝巧翼天津宿（天彗龙）",
+        "element": "龙属性"
+      }
     }
   },
   "怪异克服霞龙": {
-    "recommended_weapon": {
-      "type": "火属性",
-      "weapon": "永恒苦闷（妃蜘蛛）"
+    "type": "古龙种",
+    "weakness": {
+      "fire": "★★★",
+      "water": "—",
+      "thunder": "★★",
+      "ice": "—",
+      "dragon": "★★★"
+    },
+    "weakest_element": "火、龙",
+    "weakest_parts": [
+      "头部",
+      "前肢",
+      "尾巴"
+    ],
+    "status_weakness": {
+      "poison": "—",
+      "paralysis": "—",
+      "sleep": "—",
+      "blast": "★★",
+      "stun": "—"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "怪异克服炎王龙大剑",
+        "element": "火属性"
+      },
+      "太刀": {
+        "weapon": "怪异克服炎王龙太刀",
+        "element": "火属性"
+      },
+      "片手剑": {
+        "weapon": "怪异克服火龙片手剑",
+        "element": "火属性"
+      },
+      "双刀": {
+        "weapon": "怪异克服火龙双刀",
+        "element": "火属性"
+      },
+      "长枪": {
+        "weapon": "怪异克服炎王龙长枪",
+        "element": "火属性"
+      },
+      "铳枪": {
+        "weapon": "怪异克服炎王龙铳枪",
+        "element": "火属性"
+      },
+      "大锤": {
+        "weapon": "怪异克服炎王龙大锤",
+        "element": "火属性"
+      },
+      "狩猎笛": {
+        "weapon": "怪异克服炎王龙狩猎笛",
+        "element": "火属性"
+      },
+      "斩斧": {
+        "weapon": "怪异克服炎王龙斩斧",
+        "element": "火属性"
+      },
+      "操虫棍": {
+        "weapon": "怪异克服火龙操虫棍",
+        "element": "火属性"
+      },
+      "轻弩": {
+        "weapon": "怪异克服炎王龙轻弩",
+        "element": "火属性"
+      },
+      "重弩": {
+        "weapon": "怪异克服炎王龙重弩",
+        "element": "火属性"
+      },
+      "弓": {
+        "weapon": "怪异克服炎王龙弓",
+        "element": "火属性"
+      },
+      "盾斧": {
+        "weapon": "永恒苦闷（妃蜘蛛）",
+        "element": "火属性"
+      }
     }
   },
   "怪异克服钢龙": {
-    "recommended_weapon": {
-      "type": "雷属性",
-      "weapon": "神佑·雷祸宿命（雷神珑）"
+    "type": "古龙种",
+    "weakness": {
+      "fire": "★★",
+      "water": "—",
+      "thunder": "★★★",
+      "ice": "—",
+      "dragon": "★★"
+    },
+    "weakest_element": "雷",
+    "weakest_parts": [
+      "头部",
+      "前肢"
+    ],
+    "status_weakness": {
+      "poison": "—",
+      "paralysis": "—",
+      "sleep": "—",
+      "blast": "★★",
+      "stun": "—"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "怪异克服雷狼龙大剑",
+        "element": "雷属性"
+      },
+      "太刀": {
+        "weapon": "怪异克服雷狼龙太刀",
+        "element": "雷属性"
+      },
+      "片手剑": {
+        "weapon": "怪异克服雷狼龙片手剑",
+        "element": "雷属性"
+      },
+      "双刀": {
+        "weapon": "怪异克服雷狼龙双刀",
+        "element": "雷属性"
+      },
+      "长枪": {
+        "weapon": "怪异克服雷神龙长枪",
+        "element": "雷属性"
+      },
+      "铳枪": {
+        "weapon": "怪异克服雷神龙铳枪",
+        "element": "雷属性"
+      },
+      "大锤": {
+        "weapon": "怪异克服雷狼龙大锤",
+        "element": "雷属性"
+      },
+      "狩猎笛": {
+        "weapon": "怪异克服雷神龙狩猎笛",
+        "element": "雷属性"
+      },
+      "斩斧": {
+        "weapon": "怪异克服雷狼龙斩斧",
+        "element": "雷属性"
+      },
+      "操虫棍": {
+        "weapon": "怪异克服雷狼龙操虫棍",
+        "element": "雷属性"
+      },
+      "轻弩": {
+        "weapon": "怪异克服雷狼龙轻弩",
+        "element": "雷属性"
+      },
+      "重弩": {
+        "weapon": "怪异克服雷神龙重弩",
+        "element": "雷属性"
+      },
+      "弓": {
+        "weapon": "怪异克服雷狼龙弓",
+        "element": "雷属性"
+      },
+      "盾斧": {
+        "weapon": "神佑·雷祸宿命（雷神珑）",
+        "element": "雷属性"
+      }
     }
   },
   "怪异克服炎王龙": {
-    "recommended_weapon": {
-      "type": "冰属性",
-      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    "type": "古龙种",
+    "weakness": {
+      "fire": "—",
+      "water": "★★★",
+      "thunder": "★",
+      "ice": "★★★",
+      "dragon": "★"
+    },
+    "weakest_element": "水、冰",
+    "weakest_parts": [
+      "头部"
+    ],
+    "status_weakness": {
+      "poison": "—",
+      "paralysis": "—",
+      "sleep": "—",
+      "blast": "—",
+      "stun": "—"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "怪异克服泥鱼龙大剑",
+        "element": "水属性"
+      },
+      "太刀": {
+        "weapon": "怪异克服泡狐龙太刀",
+        "element": "水属性"
+      },
+      "片手剑": {
+        "weapon": "怪异克服水兽片手剑",
+        "element": "水属性"
+      },
+      "双刀": {
+        "weapon": "怪异克服泡狐龙双刀",
+        "element": "水属性"
+      },
+      "长枪": {
+        "weapon": "怪异克服泡狐龙长枪",
+        "element": "水属性"
+      },
+      "铳枪": {
+        "weapon": "怪异克服熔岩龙铳枪",
+        "element": "水属性"
+      },
+      "大锤": {
+        "weapon": "怪异克服水兽大锤",
+        "element": "水属性"
+      },
+      "狩猎笛": {
+        "weapon": "怪异克服泡狐龙狩猎笛",
+        "element": "水属性"
+      },
+      "斩斧": {
+        "weapon": "怪异克服泡狐龙斩斧",
+        "element": "水属性"
+      },
+      "操虫棍": {
+        "weapon": "怪异克服泡狐龙操虫棍",
+        "element": "水属性"
+      },
+      "轻弩": {
+        "weapon": "怪异克服水兽轻弩",
+        "element": "水属性"
+      },
+      "重弩": {
+        "weapon": "怪异克服熔岩龙重弩",
+        "element": "水属性"
+      },
+      "弓": {
+        "weapon": "怪异克服泡狐龙弓",
+        "element": "水属性"
+      },
+      "盾斧": {
+        "weapon": "极光雪斧雪人鱼（冰人鱼）",
+        "element": "冰属性"
+      }
     }
   },
   "怪异克服神秘红光天彗龙": {
-    "recommended_weapon": {
-      "type": "龙属性",
-      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    "type": "古龙种",
+    "weakness": {
+      "fire": "★★★",
+      "water": "★★★",
+      "thunder": "★★★",
+      "ice": "★★★",
+      "dragon": "—"
+    },
+    "weakest_element": "火/水/雷/冰（龙属性以外全有效）",
+    "weakest_parts": [
+      "头部",
+      "翼足",
+      "尾巴"
+    ],
+    "status_weakness": {
+      "poison": "—",
+      "paralysis": "—",
+      "sleep": "—",
+      "blast": "★★",
+      "stun": "—"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "怪异克服炎王龙大剑",
+        "element": "火属性"
+      },
+      "太刀": {
+        "weapon": "怪异克服炎王龙太刀",
+        "element": "火属性"
+      },
+      "片手剑": {
+        "weapon": "怪异克服火龙片手剑",
+        "element": "火属性"
+      },
+      "双刀": {
+        "weapon": "怪异克服火龙双刀",
+        "element": "火属性"
+      },
+      "长枪": {
+        "weapon": "怪异克服炎王龙长枪",
+        "element": "火属性"
+      },
+      "铳枪": {
+        "weapon": "怪异克服炎王龙铳枪",
+        "element": "火属性"
+      },
+      "大锤": {
+        "weapon": "怪异克服炎王龙大锤",
+        "element": "火属性"
+      },
+      "狩猎笛": {
+        "weapon": "怪异克服炎王龙狩猎笛",
+        "element": "火属性"
+      },
+      "斩斧": {
+        "weapon": "怪异克服炎王龙斩斧",
+        "element": "火属性"
+      },
+      "操虫棍": {
+        "weapon": "怪异克服火龙操虫棍",
+        "element": "火属性"
+      },
+      "轻弩": {
+        "weapon": "怪异克服炎王龙轻弩",
+        "element": "火属性"
+      },
+      "重弩": {
+        "weapon": "怪异克服炎王龙重弩",
+        "element": "火属性"
+      },
+      "弓": {
+        "weapon": "怪异克服炎王龙弓",
+        "element": "火属性"
+      },
+      "盾斧": {
+        "weapon": "赤绝巧翼天津宿（天彗龙）",
+        "element": "龙属性"
+      }
     }
   },
   "怪异克服天廻龙": {
-    "recommended_weapon": {
-      "type": "龙属性",
-      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    "type": "古龙种",
+    "weakness": {
+      "fire": "★★",
+      "water": "★★",
+      "thunder": "★★",
+      "ice": "★★",
+      "dragon": "★★★"
+    },
+    "weakest_element": "龙",
+    "weakest_parts": [
+      "头部",
+      "胸部",
+      "翅膀"
+    ],
+    "status_weakness": {
+      "poison": "—",
+      "paralysis": "—",
+      "sleep": "—",
+      "blast": "★★",
+      "stun": "—"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "怪异克服天彗龙大剑",
+        "element": "龙属性"
+      },
+      "太刀": {
+        "weapon": "怪异克服天彗龙太刀",
+        "element": "龙属性"
+      },
+      "片手剑": {
+        "weapon": "怪异克服钢龙片手剑",
+        "element": "龙属性"
+      },
+      "双刀": {
+        "weapon": "怪异克服天彗龙双刀",
+        "element": "龙属性"
+      },
+      "长枪": {
+        "weapon": "怪异克服钢龙长枪",
+        "element": "龙属性"
+      },
+      "铳枪": {
+        "weapon": "怪异克服钢龙铳枪",
+        "element": "龙属性"
+      },
+      "大锤": {
+        "weapon": "怪异克服天彗龙大锤",
+        "element": "龙属性"
+      },
+      "狩猎笛": {
+        "weapon": "怪异克服钢龙狩猎笛",
+        "element": "龙属性"
+      },
+      "斩斧": {
+        "weapon": "怪异克服天彗龙斩斧",
+        "element": "龙属性"
+      },
+      "操虫棍": {
+        "weapon": "怪异克服天彗龙操虫棍",
+        "element": "龙属性"
+      },
+      "轻弩": {
+        "weapon": "怪异克服天彗龙轻弩",
+        "element": "龙属性"
+      },
+      "重弩": {
+        "weapon": "怪异克服天彗龙重弩",
+        "element": "龙属性"
+      },
+      "弓": {
+        "weapon": "怪异克服天彗龙弓",
+        "element": "龙属性"
+      },
+      "盾斧": {
+        "weapon": "赤绝巧翼天津宿（天彗龙）",
+        "element": "龙属性"
+      }
     }
   },
   "霸主·青熊兽": {
-    "recommended_weapon": {
-      "type": "火属性",
-      "weapon": "永恒苦闷（妃蜘蛛）"
+    "type": "牙兽种",
+    "weakness": {
+      "fire": "★★★",
+      "water": "★",
+      "thunder": "★★",
+      "ice": "★",
+      "dragon": "—"
+    },
+    "weakest_element": "火",
+    "weakest_parts": [
+      "头部",
+      "前肢"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★",
+      "sleep": "★★★",
+      "blast": "★★",
+      "stun": "★★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "霸主·炎王龙大剑",
+        "element": "火属性"
+      },
+      "太刀": {
+        "weapon": "霸主·炎王龙太刀",
+        "element": "火属性"
+      },
+      "片手剑": {
+        "weapon": "霸主·火龙片手剑",
+        "element": "火属性"
+      },
+      "双刀": {
+        "weapon": "霸主·火龙双刀",
+        "element": "火属性"
+      },
+      "长枪": {
+        "weapon": "霸主·炎王龙长枪",
+        "element": "火属性"
+      },
+      "铳枪": {
+        "weapon": "霸主·炎王龙铳枪",
+        "element": "火属性"
+      },
+      "大锤": {
+        "weapon": "霸主·炎王龙大锤",
+        "element": "火属性"
+      },
+      "狩猎笛": {
+        "weapon": "霸主·炎王龙狩猎笛",
+        "element": "火属性"
+      },
+      "斩斧": {
+        "weapon": "霸主·炎王龙斩斧",
+        "element": "火属性"
+      },
+      "操虫棍": {
+        "weapon": "霸主·火龙操虫棍",
+        "element": "火属性"
+      },
+      "轻弩": {
+        "weapon": "霸主·炎王龙轻弩",
+        "element": "火属性"
+      },
+      "重弩": {
+        "weapon": "霸主·炎王龙重弩",
+        "element": "火属性"
+      },
+      "弓": {
+        "weapon": "霸主·炎王龙弓",
+        "element": "火属性"
+      },
+      "盾斧": {
+        "weapon": "永恒苦闷（妃蜘蛛）",
+        "element": "火属性"
+      }
     }
   },
   "霸主·雌火龙": {
-    "recommended_weapon": {
-      "type": "龙属性",
-      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    "type": "飞龙种",
+    "weakness": {
+      "fire": "—",
+      "water": "★★",
+      "thunder": "★★★",
+      "ice": "★★",
+      "dragon": "★★★"
+    },
+    "weakest_element": "龙、雷",
+    "weakest_parts": [
+      "头部",
+      "翼",
+      "尾巴"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★",
+      "sleep": "★★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "霸主·天彗龙大剑",
+        "element": "龙属性"
+      },
+      "太刀": {
+        "weapon": "霸主·天彗龙太刀",
+        "element": "龙属性"
+      },
+      "片手剑": {
+        "weapon": "霸主·钢龙片手剑",
+        "element": "龙属性"
+      },
+      "双刀": {
+        "weapon": "霸主·天彗龙双刀",
+        "element": "龙属性"
+      },
+      "长枪": {
+        "weapon": "霸主·钢龙长枪",
+        "element": "龙属性"
+      },
+      "铳枪": {
+        "weapon": "霸主·钢龙铳枪",
+        "element": "龙属性"
+      },
+      "大锤": {
+        "weapon": "霸主·天彗龙大锤",
+        "element": "龙属性"
+      },
+      "狩猎笛": {
+        "weapon": "霸主·钢龙狩猎笛",
+        "element": "龙属性"
+      },
+      "斩斧": {
+        "weapon": "霸主·天彗龙斩斧",
+        "element": "龙属性"
+      },
+      "操虫棍": {
+        "weapon": "霸主·天彗龙操虫棍",
+        "element": "龙属性"
+      },
+      "轻弩": {
+        "weapon": "霸主·天彗龙轻弩",
+        "element": "龙属性"
+      },
+      "重弩": {
+        "weapon": "霸主·天彗龙重弩",
+        "element": "龙属性"
+      },
+      "弓": {
+        "weapon": "霸主·天彗龙弓",
+        "element": "龙属性"
+      },
+      "盾斧": {
+        "weapon": "赤绝巧翼天津宿（天彗龙）",
+        "element": "龙属性"
+      }
     }
   },
   "霸主·泡狐龙": {
-    "recommended_weapon": {
-      "type": "冰属性",
-      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    "type": "海龙种",
+    "weakness": {
+      "fire": "★★",
+      "water": "—",
+      "thunder": "★★★",
+      "ice": "★★",
+      "dragon": "★★★"
+    },
+    "weakest_element": "雷、龙",
+    "weakest_parts": [
+      "头部",
+      "颈部",
+      "背鳍",
+      "尾巴"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★",
+      "sleep": "★★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "霸主·雷狼龙大剑",
+        "element": "雷属性"
+      },
+      "太刀": {
+        "weapon": "霸主·雷狼龙太刀",
+        "element": "雷属性"
+      },
+      "片手剑": {
+        "weapon": "霸主·雷狼龙片手剑",
+        "element": "雷属性"
+      },
+      "双刀": {
+        "weapon": "霸主·雷狼龙双刀",
+        "element": "雷属性"
+      },
+      "长枪": {
+        "weapon": "霸主·雷神龙长枪",
+        "element": "雷属性"
+      },
+      "铳枪": {
+        "weapon": "霸主·雷神龙铳枪",
+        "element": "雷属性"
+      },
+      "大锤": {
+        "weapon": "霸主·雷狼龙大锤",
+        "element": "雷属性"
+      },
+      "狩猎笛": {
+        "weapon": "霸主·雷神龙狩猎笛",
+        "element": "雷属性"
+      },
+      "斩斧": {
+        "weapon": "霸主·雷狼龙斩斧",
+        "element": "雷属性"
+      },
+      "操虫棍": {
+        "weapon": "霸主·雷狼龙操虫棍",
+        "element": "雷属性"
+      },
+      "轻弩": {
+        "weapon": "霸主·雷狼龙轻弩",
+        "element": "雷属性"
+      },
+      "重弩": {
+        "weapon": "霸主·雷神龙重弩",
+        "element": "雷属性"
+      },
+      "弓": {
+        "weapon": "霸主·雷狼龙弓",
+        "element": "雷属性"
+      },
+      "盾斧": {
+        "weapon": "极光雪斧雪人鱼（冰人鱼）",
+        "element": "冰属性"
+      }
     }
   },
   "霸主·火龙": {
-    "recommended_weapon": {
-      "type": "龙属性",
-      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    "type": "飞龙种",
+    "weakness": {
+      "fire": "—",
+      "water": "★★",
+      "thunder": "★★★",
+      "ice": "★★",
+      "dragon": "★★★"
+    },
+    "weakest_element": "龙、雷",
+    "weakest_parts": [
+      "头部",
+      "双翼"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★",
+      "sleep": "★★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "霸主·天彗龙大剑",
+        "element": "龙属性"
+      },
+      "太刀": {
+        "weapon": "霸主·天彗龙太刀",
+        "element": "龙属性"
+      },
+      "片手剑": {
+        "weapon": "霸主·钢龙片手剑",
+        "element": "龙属性"
+      },
+      "双刀": {
+        "weapon": "霸主·天彗龙双刀",
+        "element": "龙属性"
+      },
+      "长枪": {
+        "weapon": "霸主·钢龙长枪",
+        "element": "龙属性"
+      },
+      "铳枪": {
+        "weapon": "霸主·钢龙铳枪",
+        "element": "龙属性"
+      },
+      "大锤": {
+        "weapon": "霸主·天彗龙大锤",
+        "element": "龙属性"
+      },
+      "狩猎笛": {
+        "weapon": "霸主·钢龙狩猎笛",
+        "element": "龙属性"
+      },
+      "斩斧": {
+        "weapon": "霸主·天彗龙斩斧",
+        "element": "龙属性"
+      },
+      "操虫棍": {
+        "weapon": "霸主·天彗龙操虫棍",
+        "element": "龙属性"
+      },
+      "轻弩": {
+        "weapon": "霸主·天彗龙轻弩",
+        "element": "龙属性"
+      },
+      "重弩": {
+        "weapon": "霸主·天彗龙重弩",
+        "element": "龙属性"
+      },
+      "弓": {
+        "weapon": "霸主·天彗龙弓",
+        "element": "龙属性"
+      },
+      "盾斧": {
+        "weapon": "赤绝巧翼天津宿（天彗龙）",
+        "element": "龙属性"
+      }
     }
   },
   "霸主·角龙": {
-    "recommended_weapon": {
-      "type": "冰属性",
-      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    "type": "飞龙种",
+    "weakness": {
+      "fire": "★",
+      "water": "★★★",
+      "thunder": "★★",
+      "ice": "★★★",
+      "dragon": "★★★"
+    },
+    "weakest_element": "冰、水、龙",
+    "weakest_parts": [
+      "头部",
+      "颈部",
+      "腹部"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★★",
+      "sleep": "★★",
+      "blast": "★★",
+      "stun": "★★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "霸主·冰牙龙大剑",
+        "element": "冰属性"
+      },
+      "太刀": {
+        "weapon": "霸主·冰牙龙太刀",
+        "element": "冰属性"
+      },
+      "片手剑": {
+        "weapon": "霸主·冰牙龙片手剑",
+        "element": "冰属性"
+      },
+      "双刀": {
+        "weapon": "霸主·冰牙龙双刀",
+        "element": "冰属性"
+      },
+      "长枪": {
+        "weapon": "霸主·冰牙龙长枪",
+        "element": "冰属性"
+      },
+      "铳枪": {
+        "weapon": "霸主·冰牙龙铳枪",
+        "element": "冰属性"
+      },
+      "大锤": {
+        "weapon": "霸主·冰牙龙大锤",
+        "element": "冰属性"
+      },
+      "狩猎笛": {
+        "weapon": "霸主·冰牙龙狩猎笛",
+        "element": "冰属性"
+      },
+      "斩斧": {
+        "weapon": "霸主·冰牙龙斩斧",
+        "element": "冰属性"
+      },
+      "操虫棍": {
+        "weapon": "霸主·冰牙龙操虫棍",
+        "element": "冰属性"
+      },
+      "轻弩": {
+        "weapon": "霸主·冰牙龙轻弩",
+        "element": "冰属性"
+      },
+      "重弩": {
+        "weapon": "霸主·冰牙龙重弩",
+        "element": "冰属性"
+      },
+      "弓": {
+        "weapon": "霸主·冰牙龙弓",
+        "element": "冰属性"
+      },
+      "盾斧": {
+        "weapon": "极光雪斧雪人鱼（冰人鱼）",
+        "element": "冰属性"
+      }
     }
   },
   "霸主·雷狼龙": {
-    "recommended_weapon": {
-      "type": "冰属性",
-      "weapon": "极光雪斧雪人鱼（冰人鱼）"
+    "type": "牙龙种",
+    "weakness": {
+      "fire": "★★",
+      "water": "★★★",
+      "thunder": "—",
+      "ice": "★★★",
+      "dragon": "★★"
+    },
+    "weakest_element": "冰、水",
+    "weakest_parts": [
+      "头部"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "—",
+      "sleep": "★★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "霸主·冰牙龙大剑",
+        "element": "冰属性"
+      },
+      "太刀": {
+        "weapon": "霸主·冰牙龙太刀",
+        "element": "冰属性"
+      },
+      "片手剑": {
+        "weapon": "霸主·冰牙龙片手剑",
+        "element": "冰属性"
+      },
+      "双刀": {
+        "weapon": "霸主·冰牙龙双刀",
+        "element": "冰属性"
+      },
+      "长枪": {
+        "weapon": "霸主·冰牙龙长枪",
+        "element": "冰属性"
+      },
+      "铳枪": {
+        "weapon": "霸主·冰牙龙铳枪",
+        "element": "冰属性"
+      },
+      "大锤": {
+        "weapon": "霸主·冰牙龙大锤",
+        "element": "冰属性"
+      },
+      "狩猎笛": {
+        "weapon": "霸主·冰牙龙狩猎笛",
+        "element": "冰属性"
+      },
+      "斩斧": {
+        "weapon": "霸主·冰牙龙斩斧",
+        "element": "冰属性"
+      },
+      "操虫棍": {
+        "weapon": "霸主·冰牙龙操虫棍",
+        "element": "冰属性"
+      },
+      "轻弩": {
+        "weapon": "霸主·冰牙龙轻弩",
+        "element": "冰属性"
+      },
+      "重弩": {
+        "weapon": "霸主·冰牙龙重弩",
+        "element": "冰属性"
+      },
+      "弓": {
+        "weapon": "霸主·冰牙龙弓",
+        "element": "冰属性"
+      },
+      "盾斧": {
+        "weapon": "极光雪斧雪人鱼（冰人鱼）",
+        "element": "冰属性"
+      }
     }
   },
   "月迅龙": {
-    "recommended_weapon": {
-      "type": "雷属性",
-      "weapon": "神佑·雷祸宿命（雷神珑）"
+    "type": "飞龙种",
+    "weakness": {
+      "fire": "★★★",
+      "water": "—",
+      "thunder": "★★★",
+      "ice": "★★",
+      "dragon": "★★"
+    },
+    "weakest_element": "雷、火",
+    "weakest_parts": [
+      "头部",
+      "前肢",
+      "尾巴"
+    ],
+    "status_weakness": {
+      "poison": "★★",
+      "paralysis": "★★★",
+      "sleep": "★★",
+      "blast": "★★",
+      "stun": "★★"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "雷狼龙大剑",
+        "element": "雷属性"
+      },
+      "太刀": {
+        "weapon": "雷狼龙太刀",
+        "element": "雷属性"
+      },
+      "片手剑": {
+        "weapon": "雷狼龙片手剑",
+        "element": "雷属性"
+      },
+      "双刀": {
+        "weapon": "雷狼龙双刀",
+        "element": "雷属性"
+      },
+      "长枪": {
+        "weapon": "雷神龙长枪",
+        "element": "雷属性"
+      },
+      "铳枪": {
+        "weapon": "雷神龙铳枪",
+        "element": "雷属性"
+      },
+      "大锤": {
+        "weapon": "雷狼龙大锤",
+        "element": "雷属性"
+      },
+      "狩猎笛": {
+        "weapon": "雷神龙狩猎笛",
+        "element": "雷属性"
+      },
+      "斩斧": {
+        "weapon": "雷狼龙斩斧",
+        "element": "雷属性"
+      },
+      "操虫棍": {
+        "weapon": "雷狼龙操虫棍",
+        "element": "雷属性"
+      },
+      "轻弩": {
+        "weapon": "雷狼龙轻弩",
+        "element": "雷属性"
+      },
+      "重弩": {
+        "weapon": "雷神龙重弩",
+        "element": "雷属性"
+      },
+      "弓": {
+        "weapon": "雷狼龙弓",
+        "element": "雷属性"
+      },
+      "盾斧": {
+        "weapon": "神佑·雷祸宿命（雷神珑）",
+        "element": "雷属性"
+      }
     }
   },
   "冰呪龙": {
-    "recommended_weapon": {
-      "type": "龙属性",
-      "weapon": "赤绝巧翼天津宿（天彗龙）"
+    "type": "古龙种",
+    "weakness": {
+      "fire": "★★",
+      "water": "—",
+      "thunder": "★★",
+      "ice": "—",
+      "dragon": "★★★"
+    },
+    "weakest_element": "龙",
+    "weakest_parts": [
+      "头部",
+      "胸部",
+      "翅膀"
+    ],
+    "status_weakness": {
+      "poison": "—",
+      "paralysis": "—",
+      "sleep": "—",
+      "blast": "★★",
+      "stun": "—"
+    },
+    "recommended_weapons": {
+      "大剑": {
+        "weapon": "天彗龙大剑",
+        "element": "龙属性"
+      },
+      "太刀": {
+        "weapon": "天彗龙太刀",
+        "element": "龙属性"
+      },
+      "片手剑": {
+        "weapon": "钢龙片手剑",
+        "element": "龙属性"
+      },
+      "双刀": {
+        "weapon": "天彗龙双刀",
+        "element": "龙属性"
+      },
+      "长枪": {
+        "weapon": "钢龙长枪",
+        "element": "龙属性"
+      },
+      "铳枪": {
+        "weapon": "钢龙铳枪",
+        "element": "龙属性"
+      },
+      "大锤": {
+        "weapon": "天彗龙大锤",
+        "element": "龙属性"
+      },
+      "狩猎笛": {
+        "weapon": "钢龙狩猎笛",
+        "element": "龙属性"
+      },
+      "斩斧": {
+        "weapon": "天彗龙斩斧",
+        "element": "龙属性"
+      },
+      "操虫棍": {
+        "weapon": "天彗龙操虫棍",
+        "element": "龙属性"
+      },
+      "轻弩": {
+        "weapon": "天彗龙轻弩",
+        "element": "龙属性"
+      },
+      "重弩": {
+        "weapon": "天彗龙重弩",
+        "element": "龙属性"
+      },
+      "弓": {
+        "weapon": "天彗龙弓",
+        "element": "龙属性"
+      },
+      "盾斧": {
+        "weapon": "赤绝巧翼天津宿（天彗龙）",
+        "element": "龙属性"
+      }
     }
   }
 }
